@@ -1,9 +1,13 @@
 PODS:
+  - CAHorizontalGradientLayer (0.1.0)
   - NSString-Email (0.0.3)
+  - OKActiveButton (0.1.2):
+    - CAHorizontalGradientLayer (~> 0.1.0)
   - OKTextFieldView (0.1.0):
     - NSString-Email (~> 0.0.3)
 
 DEPENDENCIES:
+  - OKActiveButton (~> 0.1.0)
   - OKTextFieldView (from `../`)
 
 EXTERNAL SOURCES:
@@ -11,9 +15,11 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
+  CAHorizontalGradientLayer: 477539ff8b8164085f2c3766c94a6a5e784139ac
   NSString-Email: 3c1ff0ace64d7ecc289ea2a5696170c853012252
+  OKActiveButton: 132d3774e7baff070934b5b4f0d43eeebb15c2d5
   OKTextFieldView: bba82007d8bdd0f711cee702a94746bb10b9a318
 
-PODFILE CHECKSUM: 519200469701746b99190ba074e2bd633dcc50b6
+PODFILE CHECKSUM: a185bb6f19d97ae1038e5e3724a1c43f2a028fd0
 
 COCOAPODS: 1.1.1

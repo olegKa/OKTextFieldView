@@ -1,31 +1,129 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
-    <device id="retina4_0" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="SUN-UD-5yO">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="wQg-tq-qST">
+        <!--Sign In-->
+        <scene sceneID="AK5-We-5JR">
             <objects>
-                <viewController id="whP-gf-Uak" customClass="OKViewController" sceneMemberID="viewController">
+                <viewController id="SUN-UD-5yO" customClass="OKViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="uEw-UM-LJ8"/>
-                        <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
+                        <viewControllerLayoutGuide type="top" id="hU8-mP-Zwt"/>
+                        <viewControllerLayoutGuide type="bottom" id="dnW-6R-1Ro"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <view key="view" contentMode="scaleToFill" id="btY-Fp-mrS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="E-mail" placeholder="E-mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dMF-36-PM2" customClass="OKEmailTextFieldView">
+                                <rect key="frame" x="47" y="453" width="281" height="30"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="MGd-U2-NVZ"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" returnKeyType="next"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" red="0.66666666669999997" green="0.76470588240000004" blue="0.83529411760000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="leftImage" value="icon_mail"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="textFieldDidChanged:" destination="SUN-UD-5yO" eventType="editingChanged" id="a2Z-fF-zZi"/>
+                                    <outlet property="delegate" destination="SUN-UD-5yO" id="Kwx-VE-3HM"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eOq-JS-4dw" customClass="OKActiveButton">
+                                <rect key="frame" x="47" y="586" width="281" height="51"/>
+                                <color key="backgroundColor" red="0.82745098039999998" green="0.078431372550000003" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <state key="normal" title="Sign In">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buttonSignIn:" destination="SUN-UD-5yO" eventType="touchUpInside" id="33J-R1-n1Z"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Password" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hew-rZ-2Tq" customClass="OKPasswordTextFieldView">
+                                <rect key="frame" x="47" y="498" width="281" height="30"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="89N-cl-P9R"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="alphabet" returnKeyType="go" secureTextEntry="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" red="0.66666666669999997" green="0.76470588240000004" blue="0.83529411760000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="leftImage" value="icon_lock"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="textFieldDidChanged:" destination="SUN-UD-5yO" eventType="editingChanged" id="cvy-8J-1qC"/>
+                                    <outlet property="delegate" destination="SUN-UD-5yO" id="qkL-KF-SAX"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3lx-L6-w1J">
+                                <rect key="frame" x="47" y="538" width="108" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Forget password?">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonForgetPassword:" destination="SUN-UD-5yO" eventType="touchUpInside" id="8jV-un-2s4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1058823529" green="0.29411764709999999" blue="0.41960784309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="eOq-JS-4dw" firstAttribute="centerX" secondItem="btY-Fp-mrS" secondAttribute="centerX" id="1lM-s6-ogZ"/>
+                            <constraint firstItem="eOq-JS-4dw" firstAttribute="leading" secondItem="Hew-rZ-2Tq" secondAttribute="leading" id="Fmc-fo-UcC"/>
+                            <constraint firstItem="eOq-JS-4dw" firstAttribute="width" secondItem="eOq-JS-4dw" secondAttribute="height" multiplier="240:44" id="NT0-Ep-AOW"/>
+                            <constraint firstItem="eOq-JS-4dw" firstAttribute="top" secondItem="3lx-L6-w1J" secondAttribute="bottom" constant="20" id="Nbd-Tr-WQN"/>
+                            <constraint firstItem="dnW-6R-1Ro" firstAttribute="top" secondItem="eOq-JS-4dw" secondAttribute="bottom" constant="30" id="RFU-p1-Onl"/>
+                            <constraint firstItem="eOq-JS-4dw" firstAttribute="trailing" secondItem="dMF-36-PM2" secondAttribute="trailing" id="dFB-1r-E2B"/>
+                            <constraint firstItem="eOq-JS-4dw" firstAttribute="trailing" secondItem="Hew-rZ-2Tq" secondAttribute="trailing" id="iDp-gk-8PK"/>
+                            <constraint firstItem="eOq-JS-4dw" firstAttribute="leading" secondItem="3lx-L6-w1J" secondAttribute="leading" id="jis-dP-CSt"/>
+                            <constraint firstItem="eOq-JS-4dw" firstAttribute="width" secondItem="btY-Fp-mrS" secondAttribute="width" multiplier="240:320" id="m2q-fL-U1L"/>
+                            <constraint firstItem="eOq-JS-4dw" firstAttribute="leading" secondItem="dMF-36-PM2" secondAttribute="leading" id="oEq-Mz-aAp"/>
+                            <constraint firstItem="3lx-L6-w1J" firstAttribute="top" secondItem="Hew-rZ-2Tq" secondAttribute="bottom" constant="10" id="qRe-Q5-Tog"/>
+                            <constraint firstItem="Hew-rZ-2Tq" firstAttribute="top" secondItem="dMF-36-PM2" secondAttribute="bottom" constant="15" id="wM3-XR-9H1"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Sign In" id="9y2-p1-L0R">
+                        <barButtonItem key="backBarButtonItem" title=" " id="069-Rw-mpi"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="bottomSize" destination="RFU-p1-Onl" id="xNR-lZ-vhx"/>
+                        <outlet property="buttonForgetPassword" destination="3lx-L6-w1J" id="BDg-lI-2t3"/>
+                        <outlet property="buttonSignIn" destination="eOq-JS-4dw" id="bfb-DY-MW4"/>
+                        <outlet property="emailField" destination="dMF-36-PM2" id="fh9-cN-V65"/>
+                        <outlet property="passwordField" destination="Hew-rZ-2Tq" id="vVf-HN-RjS"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QIK-wp-cDF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="433"/>
+            <point key="canvasLocation" x="120.8" y="157.87106446776613"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icon_lock" width="14" height="20"/>
+        <image name="icon_mail" width="20" height="13"/>
+    </resources>
 </document>

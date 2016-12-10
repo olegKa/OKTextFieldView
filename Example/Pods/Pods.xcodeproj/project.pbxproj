@@ -1,0 +1,920 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09E0BA543AF7E2DA9309C8088B45F995 /* NSString-Email-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9A83EAA93F3863EC6AFDE19D481EBA /* NSString-Email-dummy.m */; };
+		2C490E9DFD2DC8924B5FD3C9B1B977B5 /* Pods-OKTextFieldView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABB40CEE0344F0EF0CEAE07B212F73B1 /* Pods-OKTextFieldView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F2D10344AEA41317CFE29F46F9649F7 /* OKPasswordTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFC61152D015099C466119D4931817B /* OKPasswordTextFieldView.m */; };
+		413439D76464360F6C63BCE1CDD04305 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D04C1CC50EE60B664AAA68189383753 /* Foundation.framework */; };
+		432968DED5D7564EC7F875E73A60750B /* NSString_Email.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9982E6EE1A91DC5E1407162DB45097B0 /* NSString_Email.framework */; };
+		5556775E53AE64D3AC4C29183A6C9ECD /* OKPasswordTextFieldView.h in Headers */ = {isa = PBXBuildFile; fileRef = A608484C4D13B17D0CB98CCA003EFFB7 /* OKPasswordTextFieldView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60068254DB11B854530FEBBF159A3588 /* OKTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A56EB06127A44A75764EBEEC454178 /* OKTextFieldView.m */; };
+		68E66B39869497C63BDD1044474C3977 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D04C1CC50EE60B664AAA68189383753 /* Foundation.framework */; };
+		76B77700882C1CA5E4F742A501B1EF3D /* NSString+Email.m in Sources */ = {isa = PBXBuildFile; fileRef = 3425ECB21D474A65F53C5C61C3D70015 /* NSString+Email.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		76C3B293CE97735EE53EEC9738B4A419 /* OKTextFieldView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 140BC2FCB311395A2B56D96548897CFF /* OKTextFieldView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B3D4503F80715929ABE529EA95DBB14 /* OKEmailTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = F28B95EBF305226438477090E775CEA7 /* OKEmailTextFieldView.m */; };
+		7BFAAF55752D27289053FDEE452D89BA /* OKTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = C8F4A9FA6946D18F97E92FC42457A3FD /* OKTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D1F153951C3E769ECAA8DACE4FBB879 /* NSString+Email.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B6F0C4EAE2ABC48C1098B6304667E73 /* NSString+Email.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96C7745061EE1D05B12F5E35C0DA03F4 /* Pods-OKTextFieldView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EFA63E1342A7D502BF4B4D11F645880 /* Pods-OKTextFieldView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BD5F171E1189213633D7519B95F2F91 /* Pods-OKTextFieldView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 972BE2791BB967D015A59F35FDB5B926 /* Pods-OKTextFieldView_Example-dummy.m */; };
+		9C6E550600E48F4CFCD543EAC9A77483 /* OKTextFieldView.h in Headers */ = {isa = PBXBuildFile; fileRef = FE0C2BFD0F111264FFBB3E86122BBA53 /* OKTextFieldView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7BBA354EEA69C4B9291E1E6E372E6B4 /* OKTextFieldView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D15B86C84CB814341633658244C61C1 /* OKTextFieldView-dummy.m */; };
+		C5221008912013F32C45A2837B13F62E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D04C1CC50EE60B664AAA68189383753 /* Foundation.framework */; };
+		D528DAE1D4910552308F698836996E42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D04C1CC50EE60B664AAA68189383753 /* Foundation.framework */; };
+		D55054E3A0D8019A29ACC082D324F55C /* Pods-OKTextFieldView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F406F3A331FCB7FD41A936302B8214F8 /* Pods-OKTextFieldView_Tests-dummy.m */; };
+		E4D3F018EA65639469580FCC1452F883 /* NSString-Email-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17F93E643B3A5ED2293F4F8EF3E980E7 /* NSString-Email-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB3D6DAE9D60F3EC3FCFD036D9E3B9D1 /* OKEmailTextFieldView.h in Headers */ = {isa = PBXBuildFile; fileRef = 186553477707BD0EE026BD6718518AB2 /* OKEmailTextFieldView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		557C54D7024C392D41257AE809C1642E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13967D9472FC1F8ACB9AD2DF1A02FC7B;
+			remoteInfo = "NSString-Email";
+		};
+		7AB2057F2AC11E901E608572AAD662F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92B46E535A7CC22ABE90B0AF4A2721FA;
+			remoteInfo = OKTextFieldView;
+		};
+		FD29F0293972D6909C75B77574B3811F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13967D9472FC1F8ACB9AD2DF1A02FC7B;
+			remoteInfo = "NSString-Email";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B6F0C4EAE2ABC48C1098B6304667E73 /* NSString+Email.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Email.h"; path = "NSString-Email/NSString+Email.h"; sourceTree = "<group>"; };
+		0FFC61152D015099C466119D4931817B /* OKPasswordTextFieldView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OKPasswordTextFieldView.m; sourceTree = "<group>"; };
+		140BC2FCB311395A2B56D96548897CFF /* OKTextFieldView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OKTextFieldView-umbrella.h"; sourceTree = "<group>"; };
+		17F93E643B3A5ED2293F4F8EF3E980E7 /* NSString-Email-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString-Email-umbrella.h"; sourceTree = "<group>"; };
+		186553477707BD0EE026BD6718518AB2 /* OKEmailTextFieldView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OKEmailTextFieldView.h; sourceTree = "<group>"; };
+		28DDB46203266F7229BB2D8FF358DFBE /* Pods-OKTextFieldView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OKTextFieldView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2BA13F9B23DBB872D7B3F80C9CE68178 /* Pods-OKTextFieldView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OKTextFieldView_Tests-resources.sh"; sourceTree = "<group>"; };
+		2E9DF929F2CAAADC3B4A92FA76488317 /* Pods-OKTextFieldView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OKTextFieldView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3425ECB21D474A65F53C5C61C3D70015 /* NSString+Email.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Email.m"; path = "NSString-Email/NSString+Email.m"; sourceTree = "<group>"; };
+		3BFBF015D6D549D85B2B85FCF6C91B91 /* Pods-OKTextFieldView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OKTextFieldView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3CB11D1A54CAE0B46839FF50D12FDA9B /* Pods-OKTextFieldView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OKTextFieldView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3EFA63E1342A7D502BF4B4D11F645880 /* Pods-OKTextFieldView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OKTextFieldView_Example-umbrella.h"; sourceTree = "<group>"; };
+		4ABAC9CB02C09DA2E8AF701073127091 /* Pods-OKTextFieldView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OKTextFieldView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4F9A83EAA93F3863EC6AFDE19D481EBA /* NSString-Email-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString-Email-dummy.m"; sourceTree = "<group>"; };
+		58C964C0A6EC5DDC02D782850E8C5C85 /* OKTextFieldView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OKTextFieldView.modulemap; sourceTree = "<group>"; };
+		5BFBC398F9EA789C3D2BD57A9BC58D97 /* Pods-OKTextFieldView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OKTextFieldView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		66EE5B47000DE3B774FFD554CF380D20 /* Pods-OKTextFieldView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OKTextFieldView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6B92982CDCECD5CC02AD76284B51AE21 /* OKTextFieldView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OKTextFieldView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		700612F5766181313C7157AEC0B1FBD7 /* Pods-OKTextFieldView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OKTextFieldView_Tests.modulemap"; sourceTree = "<group>"; };
+		77256D9C81E089963374965F1BAF043B /* NSString-Email.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "NSString-Email.xcconfig"; sourceTree = "<group>"; };
+		7D04C1CC50EE60B664AAA68189383753 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		905B67E0E2375D0DDEA0592F13C90F47 /* Pods-OKTextFieldView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OKTextFieldView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		972BE2791BB967D015A59F35FDB5B926 /* Pods-OKTextFieldView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OKTextFieldView_Example-dummy.m"; sourceTree = "<group>"; };
+		9982E6EE1A91DC5E1407162DB45097B0 /* NSString_Email.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSString_Email.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D040B260F841BB7D1245F0EE1A4A74E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D15B86C84CB814341633658244C61C1 /* OKTextFieldView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OKTextFieldView-dummy.m"; sourceTree = "<group>"; };
+		9D8020B4FAD214DBD40F65C115F4BF0B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1A56EB06127A44A75764EBEEC454178 /* OKTextFieldView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OKTextFieldView.m; sourceTree = "<group>"; };
+		A608484C4D13B17D0CB98CCA003EFFB7 /* OKPasswordTextFieldView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OKPasswordTextFieldView.h; sourceTree = "<group>"; };
+		AB124FD4B65C939FAF95AE8991FFD934 /* OKTextFieldView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OKTextFieldView-prefix.pch"; sourceTree = "<group>"; };
+		ABB40CEE0344F0EF0CEAE07B212F73B1 /* Pods-OKTextFieldView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OKTextFieldView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B765F4CC8B027B4CE1038E247BD8342B /* Pods_OKTextFieldView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OKTextFieldView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9C4B991D92D5C5AA5C7B27B3684403D /* Pods-OKTextFieldView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OKTextFieldView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BD71411000BAEB4DA9AE9D3507ADDA42 /* Pods-OKTextFieldView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OKTextFieldView_Example.modulemap"; sourceTree = "<group>"; };
+		C8F4A9FA6946D18F97E92FC42457A3FD /* OKTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OKTextField.h; sourceTree = "<group>"; };
+		CCEE864A9874BB98A358E01B2CB446F7 /* Pods-OKTextFieldView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OKTextFieldView_Example-resources.sh"; sourceTree = "<group>"; };
+		D2ED91BA425A33027EACF8EEB019383E /* NSString-Email.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "NSString-Email.modulemap"; sourceTree = "<group>"; };
+		D3704C846F5913549600FE57BCAB42DE /* Pods_OKTextFieldView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OKTextFieldView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E948E393499D24D0B793E92458DF8F /* NSString_Email.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSString_Email.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E13A19AE3EE63DB2F97999E2ED045D41 /* Pods-OKTextFieldView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OKTextFieldView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E596C04AD19506BD32DE456DB63B6D9C /* OKTextFieldView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OKTextFieldView.xcconfig; sourceTree = "<group>"; };
+		E64346D213C7F2757D47F585EA655D85 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F28B95EBF305226438477090E775CEA7 /* OKEmailTextFieldView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OKEmailTextFieldView.m; sourceTree = "<group>"; };
+		F406F3A331FCB7FD41A936302B8214F8 /* Pods-OKTextFieldView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OKTextFieldView_Tests-dummy.m"; sourceTree = "<group>"; };
+		F73054D51072C0AC9BDD4E4D672B720C /* NSString-Email-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString-Email-prefix.pch"; sourceTree = "<group>"; };
+		FCB8597BB6CBF2347365D2F4EEBB47A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE0C2BFD0F111264FFBB3E86122BBA53 /* OKTextFieldView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OKTextFieldView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CAD0ACF0428A4F82E8E492102C3E752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E66B39869497C63BDD1044474C3977 /* Foundation.framework in Frameworks */,
+				432968DED5D7564EC7F875E73A60750B /* NSString_Email.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A06F598C485B730BA96BBD96A11C10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D528DAE1D4910552308F698836996E42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1924E83F134B18823679624DB4C0171 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413439D76464360F6C63BCE1CDD04305 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B506B4DACE6C716A67D051567DD54B38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5221008912013F32C45A2837B13F62E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1643B7EEAD4CC707FF9F515ECB8B9363 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C09D0BF48819D8E7BA27BC7B5BE7241 /* Pods-OKTextFieldView_Example */,
+				D496F0D6459506ACD3C7023369AE832B /* Pods-OKTextFieldView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		19CEF44BAA524F5E586E49C40794A4F7 /* OKTextFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				EA03272DE8BECEA7B3F00376471EBAEE /* Classes */,
+			);
+			path = OKTextFieldView;
+			sourceTree = "<group>";
+		};
+		1DAF08FDA84E362ABA41297ED5E8D1DB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DD358E35F746A51D5F73BCF68AF7F9C /* OKTextFieldView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3804E7203AA9630ABA704C687467AACB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7D04C1CC50EE60B664AAA68189383753 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3C09D0BF48819D8E7BA27BC7B5BE7241 /* Pods-OKTextFieldView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E64346D213C7F2757D47F585EA655D85 /* Info.plist */,
+				BD71411000BAEB4DA9AE9D3507ADDA42 /* Pods-OKTextFieldView_Example.modulemap */,
+				2E9DF929F2CAAADC3B4A92FA76488317 /* Pods-OKTextFieldView_Example-acknowledgements.markdown */,
+				4ABAC9CB02C09DA2E8AF701073127091 /* Pods-OKTextFieldView_Example-acknowledgements.plist */,
+				972BE2791BB967D015A59F35FDB5B926 /* Pods-OKTextFieldView_Example-dummy.m */,
+				28DDB46203266F7229BB2D8FF358DFBE /* Pods-OKTextFieldView_Example-frameworks.sh */,
+				CCEE864A9874BB98A358E01B2CB446F7 /* Pods-OKTextFieldView_Example-resources.sh */,
+				3EFA63E1342A7D502BF4B4D11F645880 /* Pods-OKTextFieldView_Example-umbrella.h */,
+				B9C4B991D92D5C5AA5C7B27B3684403D /* Pods-OKTextFieldView_Example.debug.xcconfig */,
+				66EE5B47000DE3B774FFD554CF380D20 /* Pods-OKTextFieldView_Example.release.xcconfig */,
+			);
+			name = "Pods-OKTextFieldView_Example";
+			path = "Target Support Files/Pods-OKTextFieldView_Example";
+			sourceTree = "<group>";
+		};
+		3E1006896FEE3E3123F94B43502F4AF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEC7E61BDF704E315B9E80718E9F2135 /* NSString-Email */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7794A676C8A770B3ECE8607CF29B9CD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9982E6EE1A91DC5E1407162DB45097B0 /* NSString_Email.framework */,
+				3804E7203AA9630ABA704C687467AACB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				1DAF08FDA84E362ABA41297ED5E8D1DB /* Development Pods */,
+				7794A676C8A770B3ECE8607CF29B9CD7 /* Frameworks */,
+				3E1006896FEE3E3123F94B43502F4AF9 /* Pods */,
+				B55379A7C18C70184ECF3A2BD355C678 /* Products */,
+				1643B7EEAD4CC707FF9F515ECB8B9363 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DD358E35F746A51D5F73BCF68AF7F9C /* OKTextFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				19CEF44BAA524F5E586E49C40794A4F7 /* OKTextFieldView */,
+				BA7B2F482D249B7DB1DAE53FB9A83D0B /* Support Files */,
+			);
+			name = OKTextFieldView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		97ECE2789C39689B425007CF31302767 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D8020B4FAD214DBD40F65C115F4BF0B /* Info.plist */,
+				D2ED91BA425A33027EACF8EEB019383E /* NSString-Email.modulemap */,
+				77256D9C81E089963374965F1BAF043B /* NSString-Email.xcconfig */,
+				4F9A83EAA93F3863EC6AFDE19D481EBA /* NSString-Email-dummy.m */,
+				F73054D51072C0AC9BDD4E4D672B720C /* NSString-Email-prefix.pch */,
+				17F93E643B3A5ED2293F4F8EF3E980E7 /* NSString-Email-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NSString-Email";
+			sourceTree = "<group>";
+		};
+		B55379A7C18C70184ECF3A2BD355C678 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7E948E393499D24D0B793E92458DF8F /* NSString_Email.framework */,
+				6B92982CDCECD5CC02AD76284B51AE21 /* OKTextFieldView.framework */,
+				B765F4CC8B027B4CE1038E247BD8342B /* Pods_OKTextFieldView_Example.framework */,
+				D3704C846F5913549600FE57BCAB42DE /* Pods_OKTextFieldView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA7B2F482D249B7DB1DAE53FB9A83D0B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D040B260F841BB7D1245F0EE1A4A74E /* Info.plist */,
+				58C964C0A6EC5DDC02D782850E8C5C85 /* OKTextFieldView.modulemap */,
+				E596C04AD19506BD32DE456DB63B6D9C /* OKTextFieldView.xcconfig */,
+				9D15B86C84CB814341633658244C61C1 /* OKTextFieldView-dummy.m */,
+				AB124FD4B65C939FAF95AE8991FFD934 /* OKTextFieldView-prefix.pch */,
+				140BC2FCB311395A2B56D96548897CFF /* OKTextFieldView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OKTextFieldView";
+			sourceTree = "<group>";
+		};
+		BEC7E61BDF704E315B9E80718E9F2135 /* NSString-Email */ = {
+			isa = PBXGroup;
+			children = (
+				0B6F0C4EAE2ABC48C1098B6304667E73 /* NSString+Email.h */,
+				3425ECB21D474A65F53C5C61C3D70015 /* NSString+Email.m */,
+				97ECE2789C39689B425007CF31302767 /* Support Files */,
+			);
+			path = "NSString-Email";
+			sourceTree = "<group>";
+		};
+		D496F0D6459506ACD3C7023369AE832B /* Pods-OKTextFieldView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FCB8597BB6CBF2347365D2F4EEBB47A9 /* Info.plist */,
+				700612F5766181313C7157AEC0B1FBD7 /* Pods-OKTextFieldView_Tests.modulemap */,
+				3BFBF015D6D549D85B2B85FCF6C91B91 /* Pods-OKTextFieldView_Tests-acknowledgements.markdown */,
+				5BFBC398F9EA789C3D2BD57A9BC58D97 /* Pods-OKTextFieldView_Tests-acknowledgements.plist */,
+				F406F3A331FCB7FD41A936302B8214F8 /* Pods-OKTextFieldView_Tests-dummy.m */,
+				905B67E0E2375D0DDEA0592F13C90F47 /* Pods-OKTextFieldView_Tests-frameworks.sh */,
+				2BA13F9B23DBB872D7B3F80C9CE68178 /* Pods-OKTextFieldView_Tests-resources.sh */,
+				ABB40CEE0344F0EF0CEAE07B212F73B1 /* Pods-OKTextFieldView_Tests-umbrella.h */,
+				E13A19AE3EE63DB2F97999E2ED045D41 /* Pods-OKTextFieldView_Tests.debug.xcconfig */,
+				3CB11D1A54CAE0B46839FF50D12FDA9B /* Pods-OKTextFieldView_Tests.release.xcconfig */,
+			);
+			name = "Pods-OKTextFieldView_Tests";
+			path = "Target Support Files/Pods-OKTextFieldView_Tests";
+			sourceTree = "<group>";
+		};
+		EA03272DE8BECEA7B3F00376471EBAEE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				186553477707BD0EE026BD6718518AB2 /* OKEmailTextFieldView.h */,
+				F28B95EBF305226438477090E775CEA7 /* OKEmailTextFieldView.m */,
+				A608484C4D13B17D0CB98CCA003EFFB7 /* OKPasswordTextFieldView.h */,
+				0FFC61152D015099C466119D4931817B /* OKPasswordTextFieldView.m */,
+				C8F4A9FA6946D18F97E92FC42457A3FD /* OKTextField.h */,
+				FE0C2BFD0F111264FFBB3E86122BBA53 /* OKTextFieldView.h */,
+				A1A56EB06127A44A75764EBEEC454178 /* OKTextFieldView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08E9BFEA94D4904EBE5B7183887581DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1F153951C3E769ECAA8DACE4FBB879 /* NSString+Email.h in Headers */,
+				E4D3F018EA65639469580FCC1452F883 /* NSString-Email-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA9E28729988DD81794483D0FD05EFF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C490E9DFD2DC8924B5FD3C9B1B977B5 /* Pods-OKTextFieldView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ECE95C6DCA49F72E1AA28722B4A27BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C7745061EE1D05B12F5E35C0DA03F4 /* Pods-OKTextFieldView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95E6F4B4CA3707203C872CCA8C898CF2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB3D6DAE9D60F3EC3FCFD036D9E3B9D1 /* OKEmailTextFieldView.h in Headers */,
+				5556775E53AE64D3AC4C29183A6C9ECD /* OKPasswordTextFieldView.h in Headers */,
+				7BFAAF55752D27289053FDEE452D89BA /* OKTextField.h in Headers */,
+				76C3B293CE97735EE53EEC9738B4A419 /* OKTextFieldView-umbrella.h in Headers */,
+				9C6E550600E48F4CFCD543EAC9A77483 /* OKTextFieldView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		13967D9472FC1F8ACB9AD2DF1A02FC7B /* NSString-Email */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28F969394D6F86DCA2E00D413DC33CC2 /* Build configuration list for PBXNativeTarget "NSString-Email" */;
+			buildPhases = (
+				A4EFE50866B8EB7580CDED36C9274074 /* Sources */,
+				A1924E83F134B18823679624DB4C0171 /* Frameworks */,
+				08E9BFEA94D4904EBE5B7183887581DA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSString-Email";
+			productName = "NSString-Email";
+			productReference = D7E948E393499D24D0B793E92458DF8F /* NSString_Email.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		91883057516CE1826369A29AAFD6B0F6 /* Pods-OKTextFieldView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 198D417EA439DB13D6C7618C7D2A8264 /* Build configuration list for PBXNativeTarget "Pods-OKTextFieldView_Example" */;
+			buildPhases = (
+				6A755B25ECF19A8AE4C2460BF36FD2AB /* Sources */,
+				69A06F598C485B730BA96BBD96A11C10 /* Frameworks */,
+				2ECE95C6DCA49F72E1AA28722B4A27BE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD88CEB42B70C616C968368F07BA55D1 /* PBXTargetDependency */,
+				646F9D493A1D770EE48E5B2F980A123F /* PBXTargetDependency */,
+			);
+			name = "Pods-OKTextFieldView_Example";
+			productName = "Pods-OKTextFieldView_Example";
+			productReference = B765F4CC8B027B4CE1038E247BD8342B /* Pods_OKTextFieldView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		92B46E535A7CC22ABE90B0AF4A2721FA /* OKTextFieldView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D02F67312AA0D735EEBFCEEE115D815F /* Build configuration list for PBXNativeTarget "OKTextFieldView" */;
+			buildPhases = (
+				7F63929CE8484DB1BAC17E59AAB310FB /* Sources */,
+				3CAD0ACF0428A4F82E8E492102C3E752 /* Frameworks */,
+				95E6F4B4CA3707203C872CCA8C898CF2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				250AE5EE64D1E3A8DD2AE816B219F6A3 /* PBXTargetDependency */,
+			);
+			name = OKTextFieldView;
+			productName = OKTextFieldView;
+			productReference = 6B92982CDCECD5CC02AD76284B51AE21 /* OKTextFieldView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BFA397452CDDC455105A3947B7723F03 /* Pods-OKTextFieldView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FEBCF5D77E06A01547ABF4C9DC01F34 /* Build configuration list for PBXNativeTarget "Pods-OKTextFieldView_Tests" */;
+			buildPhases = (
+				32C64AA9FF7122F1EBF8B9C77C7D6942 /* Sources */,
+				B506B4DACE6C716A67D051567DD54B38 /* Frameworks */,
+				2BA9E28729988DD81794483D0FD05EFF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-OKTextFieldView_Tests";
+			productName = "Pods-OKTextFieldView_Tests";
+			productReference = D3704C846F5913549600FE57BCAB42DE /* Pods_OKTextFieldView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B55379A7C18C70184ECF3A2BD355C678 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13967D9472FC1F8ACB9AD2DF1A02FC7B /* NSString-Email */,
+				92B46E535A7CC22ABE90B0AF4A2721FA /* OKTextFieldView */,
+				91883057516CE1826369A29AAFD6B0F6 /* Pods-OKTextFieldView_Example */,
+				BFA397452CDDC455105A3947B7723F03 /* Pods-OKTextFieldView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32C64AA9FF7122F1EBF8B9C77C7D6942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D55054E3A0D8019A29ACC082D324F55C /* Pods-OKTextFieldView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A755B25ECF19A8AE4C2460BF36FD2AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD5F171E1189213633D7519B95F2F91 /* Pods-OKTextFieldView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F63929CE8484DB1BAC17E59AAB310FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B3D4503F80715929ABE529EA95DBB14 /* OKEmailTextFieldView.m in Sources */,
+				3F2D10344AEA41317CFE29F46F9649F7 /* OKPasswordTextFieldView.m in Sources */,
+				B7BBA354EEA69C4B9291E1E6E372E6B4 /* OKTextFieldView-dummy.m in Sources */,
+				60068254DB11B854530FEBBF159A3588 /* OKTextFieldView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4EFE50866B8EB7580CDED36C9274074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B77700882C1CA5E4F742A501B1EF3D /* NSString+Email.m in Sources */,
+				09E0BA543AF7E2DA9309C8088B45F995 /* NSString-Email-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		250AE5EE64D1E3A8DD2AE816B219F6A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NSString-Email";
+			target = 13967D9472FC1F8ACB9AD2DF1A02FC7B /* NSString-Email */;
+			targetProxy = 557C54D7024C392D41257AE809C1642E /* PBXContainerItemProxy */;
+		};
+		646F9D493A1D770EE48E5B2F980A123F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OKTextFieldView;
+			target = 92B46E535A7CC22ABE90B0AF4A2721FA /* OKTextFieldView */;
+			targetProxy = 7AB2057F2AC11E901E608572AAD662F7 /* PBXContainerItemProxy */;
+		};
+		BD88CEB42B70C616C968368F07BA55D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NSString-Email";
+			target = 13967D9472FC1F8ACB9AD2DF1A02FC7B /* NSString-Email */;
+			targetProxy = FD29F0293972D6909C75B77574B3811F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B1C349B57CE6DFF58D4F15EF3A11627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66EE5B47000DE3B774FFD554CF380D20 /* Pods-OKTextFieldView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OKTextFieldView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OKTextFieldView_Example/Pods-OKTextFieldView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OKTextFieldView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		55ACB9ED0C38843C14274EAAF8E1292C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E596C04AD19506BD32DE456DB63B6D9C /* OKTextFieldView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OKTextFieldView/OKTextFieldView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OKTextFieldView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OKTextFieldView/OKTextFieldView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = OKTextFieldView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		992B34BCE16B8EC01DA8EA3969E54AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CB11D1A54CAE0B46839FF50D12FDA9B /* Pods-OKTextFieldView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OKTextFieldView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OKTextFieldView_Tests/Pods-OKTextFieldView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OKTextFieldView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E79CE3D3B0C617B6B3E89C4E3F231B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E596C04AD19506BD32DE456DB63B6D9C /* OKTextFieldView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OKTextFieldView/OKTextFieldView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OKTextFieldView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OKTextFieldView/OKTextFieldView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = OKTextFieldView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CEC893937A518CEF6ABF26565B12BB48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E13A19AE3EE63DB2F97999E2ED045D41 /* Pods-OKTextFieldView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OKTextFieldView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OKTextFieldView_Tests/Pods-OKTextFieldView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OKTextFieldView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7C146FE372DC3E848A936CAE1C2991E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77256D9C81E089963374965F1BAF043B /* NSString-Email.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NSString-Email/NSString-Email-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NSString-Email/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NSString-Email/NSString-Email.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NSString_Email;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF2ED409BBCA95ACF75049D5321CD534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77256D9C81E089963374965F1BAF043B /* NSString-Email.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NSString-Email/NSString-Email-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NSString-Email/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NSString-Email/NSString-Email.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = NSString_Email;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FAE84B6506F2B0B1EF62FAA450FCC126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9C4B991D92D5C5AA5C7B27B3684403D /* Pods-OKTextFieldView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OKTextFieldView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OKTextFieldView_Example/Pods-OKTextFieldView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OKTextFieldView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		198D417EA439DB13D6C7618C7D2A8264 /* Build configuration list for PBXNativeTarget "Pods-OKTextFieldView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE84B6506F2B0B1EF62FAA450FCC126 /* Debug */,
+				2B1C349B57CE6DFF58D4F15EF3A11627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28F969394D6F86DCA2E00D413DC33CC2 /* Build configuration list for PBXNativeTarget "NSString-Email" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2ED409BBCA95ACF75049D5321CD534 /* Debug */,
+				D7C146FE372DC3E848A936CAE1C2991E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FEBCF5D77E06A01547ABF4C9DC01F34 /* Build configuration list for PBXNativeTarget "Pods-OKTextFieldView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC893937A518CEF6ABF26565B12BB48 /* Debug */,
+				992B34BCE16B8EC01DA8EA3969E54AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D02F67312AA0D735EEBFCEEE115D815F /* Build configuration list for PBXNativeTarget "OKTextFieldView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E79CE3D3B0C617B6B3E89C4E3F231B0 /* Debug */,
+				55ACB9ED0C38843C14274EAAF8E1292C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

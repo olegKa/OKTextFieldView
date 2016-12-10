@@ -1,0 +1,19 @@
+PODS:
+  - NSString-Email (0.0.3)
+  - OKTextFieldView (0.1.0):
+    - NSString-Email (~> 0.0.3)
+
+DEPENDENCIES:
+  - OKTextFieldView (from `../`)
+
+EXTERNAL SOURCES:
+  OKTextFieldView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NSString-Email: 3c1ff0ace64d7ecc289ea2a5696170c853012252
+  OKTextFieldView: bba82007d8bdd0f711cee702a94746bb10b9a318
+
+PODFILE CHECKSUM: 519200469701746b99190ba074e2bd633dcc50b6
+
+COCOAPODS: 1.1.1

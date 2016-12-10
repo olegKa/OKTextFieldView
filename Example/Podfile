@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OKTextFieldView_Example' do
+  pod 'OKTextFieldView', :path => '../'
+
+  target 'OKTextFieldView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

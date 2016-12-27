@@ -71,7 +71,9 @@
     
     CGContextRef context = UIGraphicsGetCurrentContext();
     
-    CGContextSetStrokeColorWithColor(context, self.tintColor.CGColor);
+    CGColorRef colorRef = self.editing? self.tintColor.CGColor : self.placeholderColor.CGColor;
+    
+    CGContextSetStrokeColorWithColor(context, colorRef);
     CGContextSetLineWidth(context, self.editing? 1:0.5f);
     CGContextSetAlpha(context, self.editing? 1:0.5f);
     

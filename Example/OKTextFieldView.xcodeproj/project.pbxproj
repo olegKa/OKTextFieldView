@@ -39,6 +39,7 @@
 		138510A06EB087244E1A7CC3 /* Pods-OKTextFieldView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OKTextFieldView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OKTextFieldView_Tests/Pods-OKTextFieldView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		147AF38F3E1801F153FE212E /* Pods-OKTextFieldView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OKTextFieldView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OKTextFieldView_Tests/Pods-OKTextFieldView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		38EFD5C8312FBA6DB893FFE0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4F9D57A21EB9890400F5449A /* Guide */ = {isa = PBXFileReference; lastKnownFileType = text; path = Guide; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* OKTextFieldView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OKTextFieldView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -96,6 +97,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				4F9D57A21EB9890400F5449A /* Guide */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for OKTextFieldView */,
 				6003F5B5195388D20070C39A /* Tests */,

@@ -7,218 +7,297 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09E0BA543AF7E2DA9309C8088B45F995 /* NSString-Email-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 631D5920CCA28E627BBE03DDA6C90170 /* NSString-Email-dummy.m */; };
-		29E91C4D4495AF7387A8F6DF312E90F2 /* CAHorizontalGradientLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6222F9DCE179B5701A4EB88C0F80832 /* CAHorizontalGradientLayer.framework */; };
-		2A8A562D208E614F513FF54EE6FE5DB9 /* CAHorizontalGradientLayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 949DF718827529DD0CF46E77B4BE0FA0 /* CAHorizontalGradientLayer-dummy.m */; };
-		2B7B4D597CBBFAFE528996096FE51DC3 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D2B9772CC83CD6F00E986A0E1483356 /* ReplaceMe.m */; };
-		2C490E9DFD2DC8924B5FD3C9B1B977B5 /* Pods-OKTextFieldView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABB40CEE0344F0EF0CEAE07B212F73B1 /* Pods-OKTextFieldView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3354C0FE7FF913919E39FAC9B6AF25E5 /* CAHorizontalGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 195D0DE9485AB491AF9AE770432BCC86 /* CAHorizontalGradientLayer.m */; };
-		3DD645CFA084AE0A922851B6A54AC4E7 /* CAHorizontalGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B03391079869C0C90E2D730A157D00 /* CAHorizontalGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F2D10344AEA41317CFE29F46F9649F7 /* OKPasswordTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFC61152D015099C466119D4931817B /* OKPasswordTextFieldView.m */; };
-		413439D76464360F6C63BCE1CDD04305 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D58A7D0378F23B5E899C2F1E7A15DB /* Foundation.framework */; };
-		432968DED5D7564EC7F875E73A60750B /* NSString_Email.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F4D17A8542DD39C753D277847D89EAA /* NSString_Email.framework */; };
-		4371A207E6AC6F7DE72DECD8251459F2 /* OKActiveButton.h in Headers */ = {isa = PBXBuildFile; fileRef = AA23A0F7EF47361704A0C1D87A74FD98 /* OKActiveButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D21247F263293E1B21548C1B8620D7A /* OKActiveButton+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB4727F3B38491188F035218A4CB5A0 /* OKActiveButton+Gradient.m */; };
-		54669590BF2BE25F79CB93ACAE000FC7 /* OKActiveButton+Gradient.h in Headers */ = {isa = PBXBuildFile; fileRef = D199D87614D489DD4CDCE16EAA96508C /* OKActiveButton+Gradient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5556775E53AE64D3AC4C29183A6C9ECD /* OKPasswordTextFieldView.h in Headers */ = {isa = PBXBuildFile; fileRef = A608484C4D13B17D0CB98CCA003EFFB7 /* OKPasswordTextFieldView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55AD9924B22869993E4A47FB54C48EF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D58A7D0378F23B5E899C2F1E7A15DB /* Foundation.framework */; };
-		58A2556B8742D196EAF7157E8AD56D42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D58A7D0378F23B5E899C2F1E7A15DB /* Foundation.framework */; };
-		60068254DB11B854530FEBBF159A3588 /* OKTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A56EB06127A44A75764EBEEC454178 /* OKTextFieldView.m */; };
-		68E66B39869497C63BDD1044474C3977 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D58A7D0378F23B5E899C2F1E7A15DB /* Foundation.framework */; };
-		76B77700882C1CA5E4F742A501B1EF3D /* NSString+Email.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A8A8C20E050A3A5B4F50669C1DFA4B /* NSString+Email.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		76C3B293CE97735EE53EEC9738B4A419 /* OKTextFieldView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 140BC2FCB311395A2B56D96548897CFF /* OKTextFieldView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79B8C67D48B9B16ACF98AFBA153DDDD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D58A7D0378F23B5E899C2F1E7A15DB /* Foundation.framework */; };
-		7B3D4503F80715929ABE529EA95DBB14 /* OKEmailTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = F28B95EBF305226438477090E775CEA7 /* OKEmailTextFieldView.m */; };
-		7BFAAF55752D27289053FDEE452D89BA /* OKTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = C8F4A9FA6946D18F97E92FC42457A3FD /* OKTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D1F153951C3E769ECAA8DACE4FBB879 /* NSString+Email.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E77A8299525D56791B428D174E46DF /* NSString+Email.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C49CAEEDF4EAB20BAAAACEE8BC1E72C /* OKActiveButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38E20B7516481A3D20DCB4C29247DF8B /* OKActiveButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C6E550600E48F4CFCD543EAC9A77483 /* OKTextFieldView.h in Headers */ = {isa = PBXBuildFile; fileRef = FE0C2BFD0F111264FFBB3E86122BBA53 /* OKTextFieldView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6F0B1484861B175E8AEB4945C15EAAF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A4B00D3EC83D986BCEFD82768677D0 /* ReplaceMe.m */; };
-		B7BBA354EEA69C4B9291E1E6E372E6B4 /* OKTextFieldView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D15B86C84CB814341633658244C61C1 /* OKTextFieldView-dummy.m */; };
-		C0238211B2DCD6B8999343E5FFFE5854 /* Pods-OKTextFieldView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 972BE2791BB967D015A59F35FDB5B926 /* Pods-OKTextFieldView_Example-dummy.m */; };
-		C5221008912013F32C45A2837B13F62E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D58A7D0378F23B5E899C2F1E7A15DB /* Foundation.framework */; };
-		D0C9404A2F49659442699313C719E842 /* OKActiveButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F49F894FAD8F7B04C013E99D64A39BC1 /* OKActiveButton-dummy.m */; };
-		D55054E3A0D8019A29ACC082D324F55C /* Pods-OKTextFieldView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F406F3A331FCB7FD41A936302B8214F8 /* Pods-OKTextFieldView_Tests-dummy.m */; };
-		D999265611002EBF7D4EA9DEB74C1FBD /* OKActiveButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB33F03E737455194F85E7CFED0A27 /* OKActiveButton.m */; };
-		E4D3F018EA65639469580FCC1452F883 /* NSString-Email-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3678413DBA01EAEE1BCC943894FF3804 /* NSString-Email-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6DF0DF901D6F37D135ABE5C93C5E9F1 /* CAHorizontalGradientLayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E77885E72FB1E0B6F4947D89AC26414 /* CAHorizontalGradientLayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB3D6DAE9D60F3EC3FCFD036D9E3B9D1 /* OKEmailTextFieldView.h in Headers */ = {isa = PBXBuildFile; fileRef = 186553477707BD0EE026BD6718518AB2 /* OKEmailTextFieldView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FCF646B6A30C63E74942C819F5A95E1F /* Pods-OKTextFieldView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EFA63E1342A7D502BF4B4D11F645880 /* Pods-OKTextFieldView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0029470B49A1E40C1804CE817E201B02 /* OKActiveButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 08A87DEEFFE95F7951255170BBBFC3EC /* OKActiveButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B0074C8F4F30642150F8B8289BF98D4 /* OKActiveButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A97B13C1BC80D6AD3916FEFED9431660 /* OKActiveButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B2BEEA81C39AB0FB46331270F190EBD /* CAHorizontalGradientLayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A62192C92B5305055B06F10128140D51 /* CAHorizontalGradientLayer-dummy.m */; };
+		0C31C2EDAC294625500CDBC02E2686DE /* CAHorizontalGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7741089DCD746D9DD03425F96CBF55D8 /* CAHorizontalGradientLayer.m */; };
+		16101FF3842384D5F1A781A8DF01740F /* OKPasswordTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2EC10EB9D9CDC82547737C0C036B2D /* OKPasswordTextFieldView.m */; };
+		2568EE9952458E270037E39628B1D42B /* OKEmailTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 842094B40113078584FAA1229235C73C /* OKEmailTextFieldView.m */; };
+		25DF3B11A43CEA68B98C8CC3FF8F6A73 /* AKNumericFormatter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14F6EF1876CABCF13BB37593BF8ADE2 /* AKNumericFormatter.framework */; };
+		43BA991FF7211A65F72BEC9DE3FAABA7 /* AKNumericFormatter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D80C86FB6DDCFD2B92FCB336BF19E9B /* AKNumericFormatter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		452EE626CB311B18B827331A90BE7A16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4549142A61C0522D8D21A2A662716D1A /* Foundation.framework */; };
+		4AAC81F498EF2AE8B59B06A4A1042E80 /* NSString-Email-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E39A07239CCA11AB9EB3A856698387 /* NSString-Email-dummy.m */; };
+		4B413F0B0ACE95BD479C40FE720FEAAD /* OKActiveButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F38B24AFABE282F1D549B0B2B3D94B /* OKActiveButton-dummy.m */; };
+		51FF8798020884A3925C98D982A80031 /* CAHorizontalGradientLayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5B3A3D8A68F21CA3CCCE7D962195473 /* CAHorizontalGradientLayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54C101B656FC105D2C19602686CB1F9C /* NSString+Email.h in Headers */ = {isa = PBXBuildFile; fileRef = 43867A38B2EA81524F68C0743F48DE5C /* NSString+Email.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54F6277B15E36DCDD200F1F2213232E4 /* UITextField+AKNumericFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 287EB7D32E69A8B20B352707720AFE9C /* UITextField+AKNumericFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		592985B78B356E284B90A45E5D6766D8 /* CAHorizontalGradientLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA87A1D1490551049C524B11AA852D5E /* CAHorizontalGradientLayer.framework */; };
+		5E053495A0F9C5E6BA7DBAEC4CD837C4 /* NSString+Email.m in Sources */ = {isa = PBXBuildFile; fileRef = F229491F7B5DCBDE7B521B860E6DC958 /* NSString+Email.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		64CD93461CCD46093870CEB6C407C12A /* NSString-Email-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18609CDF508CB1331F7236C4AE5A7CB4 /* NSString-Email-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D426F8318E23ADCE009E9F81B410A34 /* AKNumericFormatter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3625C9F2857F058DA72C3FD57CD39A5F /* AKNumericFormatter-dummy.m */; };
+		704BF6EBA49D92F2A87F92BFEAD70BE7 /* OKActiveButton+Gradient.h in Headers */ = {isa = PBXBuildFile; fileRef = 36E61649E1991475D2EAE6DE15BE0120 /* OKActiveButton+Gradient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		720DB54AF1D8D0C2513D3DA244BE3FE3 /* NSString+AKNumericFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 694ACE529216474274ED5C95BDB38573 /* NSString+AKNumericFormatter.m */; settings = {COMPILER_FLAGS = "-fmodules -DOS_OBJECT_USE_OBJC=0"; }; };
+		7733AB829B20FB99E83B0556B13C1839 /* CAHorizontalGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 34585337819F295B6EAD39192BC79AEF /* CAHorizontalGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B18EA36D7367B27CB4A527D2628130D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4549142A61C0522D8D21A2A662716D1A /* Foundation.framework */; };
+		8972EE5D30FDDF9C5CF60C97B60F5883 /* AKNumericFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE02889D2AE6021CF9E862CE1C2CC96 /* AKNumericFormatter.m */; settings = {COMPILER_FLAGS = "-fmodules -DOS_OBJECT_USE_OBJC=0"; }; };
+		8D99CD335DF56F339B201C6105454455 /* OKTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 268006D3D273314F9A04C6BDD41A98BF /* OKTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		936AD7506588B266D5A5DB1C49575470 /* Pods-OKTextFieldView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F406F3A331FCB7FD41A936302B8214F8 /* Pods-OKTextFieldView_Tests-dummy.m */; };
+		961D061DFE810C26D70BF09CE5CCA416 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4549142A61C0522D8D21A2A662716D1A /* Foundation.framework */; };
+		9AFAF90103B5FA9487CF0AD244B88B07 /* OKTextFieldView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D15B86C84CB814341633658244C61C1 /* OKTextFieldView-dummy.m */; };
+		A677486825789565047A429F8315CFB1 /* NSString+AKNumericFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 149137E36543C93E223A35BAAE8D80F7 /* NSString+AKNumericFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A75F72963D0EBC8683D2E7D506FC9E1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4549142A61C0522D8D21A2A662716D1A /* Foundation.framework */; };
+		AD83DF5DD085399C01A78CD85160E483 /* OKTextFieldView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1776F68E9A7F6D4CF016FA05B0D79914 /* OKTextFieldView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17F3287D632D7E23F58F711E964A8F3 /* Pods-OKTextFieldView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 972BE2791BB967D015A59F35FDB5B926 /* Pods-OKTextFieldView_Example-dummy.m */; };
+		B68F2C608F2AB4BF795BA2C3E4D8204A /* OKActiveButton+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D8EB5CD7D9CFEB2A6F7D29A48F97C4 /* OKActiveButton+Gradient.m */; };
+		BDA48C6A832408934D0B82B684BDF91C /* OKPasswordTextFieldView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DCB612580FAAF8DE60A46590591D618 /* OKPasswordTextFieldView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C265D84296FBFE38C166733AEB4B17D2 /* NSString_Email.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B568474F443E91AC2748EBD42454A9 /* NSString_Email.framework */; };
+		C790762A2FF7736BAB26EBC195BFCD36 /* OKTextFieldView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 140BC2FCB311395A2B56D96548897CFF /* OKTextFieldView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C84DC357077C639CAFEC05829B9034DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4549142A61C0522D8D21A2A662716D1A /* Foundation.framework */; };
+		CA92743905F9D24C166153C4F6C71751 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8410135C54A432D023B6B5E603B5D66C /* ReplaceMe.m */; };
+		CD794938824CFE17E8C5D9A995F32345 /* OKPhoneTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB87028EB4222E3D431D61DB29E9EF8D /* OKPhoneTextFieldView.m */; };
+		D008D65BBCB40968CA34C87DCA44F25C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4549142A61C0522D8D21A2A662716D1A /* Foundation.framework */; };
+		D1D5DC3D7294A6EF12ABBF4A3AD318CD /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F615443CE5069DE5BDE396355D9C031 /* ReplaceMe.m */; };
+		D41039BD3DBC9EAE76F0FA1509222831 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4549142A61C0522D8D21A2A662716D1A /* Foundation.framework */; };
+		DE9BA7B50C78FD161D60E08B5B163FA3 /* OKTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B3B23D84EE1E1B2DCA8DFC654EA7B3 /* OKTextFieldView.m */; };
+		E7ADBABC8719D7606C88BAE7B1DBA0B7 /* OKEmailTextFieldView.h in Headers */ = {isa = PBXBuildFile; fileRef = 147476991E373D1E6339F0D93287C1CD /* OKEmailTextFieldView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E98C2D619D3A00355838BAE18A4E1CA5 /* AKNumericFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = D5CC807BFE55B1C318F0A5372C2FEAEE /* AKNumericFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAEE9AA02177356F9C8D9CF9AD05F75D /* Pods-OKTextFieldView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EFA63E1342A7D502BF4B4D11F645880 /* Pods-OKTextFieldView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED2F8F54CB99B1EBF6B31DB85E5735DF /* UITextField+AKNumericFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1CB240946C3EFB4B077D043A56130C /* UITextField+AKNumericFormatter.m */; settings = {COMPILER_FLAGS = "-fmodules -DOS_OBJECT_USE_OBJC=0"; }; };
+		EDEA616023313E30A7E820AD08966069 /* OKPhoneTextFieldView.h in Headers */ = {isa = PBXBuildFile; fileRef = D00CF899E8BB0AB4181EB6B353CBA025 /* OKPhoneTextFieldView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF5EBC7DC09DB9587967345AAF430590 /* OKActiveButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F056526AAA9B52B12BE81EFFE8E0C2F1 /* OKActiveButton.m */; };
+		F7D69BC5150F6C8D4960D966E777453E /* Pods-OKTextFieldView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABB40CEE0344F0EF0CEAE07B212F73B1 /* Pods-OKTextFieldView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1B985CE0CC6017726A2EBCE74C7D81F9 /* PBXContainerItemProxy */ = {
+		058121F9CE5257953FE55F97EF0E896C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0BEB709BFE9644A9FCB70918BE136A0D;
-			remoteInfo = OKActiveButton;
-		};
-		557C54D7024C392D41257AE809C1642E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 13967D9472FC1F8ACB9AD2DF1A02FC7B;
-			remoteInfo = "NSString-Email";
-		};
-		5857905898DA9F5D041CE8DAC28AE055 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CD26C1E93151F79B0E593A811931AE42;
-			remoteInfo = CAHorizontalGradientLayer;
-		};
-		C01FB0422F28761D9EEF6464DADA7428 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 92B46E535A7CC22ABE90B0AF4A2721FA;
+			remoteGlobalIDString = A83BB00F4AE3A804392CA13CC3943075;
 			remoteInfo = OKTextFieldView;
 		};
-		CF850F0D90E958EF3562BE69323893A4 /* PBXContainerItemProxy */ = {
+		175825DC2548D1AF3F8EFDADFCD787FE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD26C1E93151F79B0E593A811931AE42;
+			remoteGlobalIDString = 694F9E689D326D985582CFD80493B433;
 			remoteInfo = CAHorizontalGradientLayer;
 		};
-		EEDB99B386E54DDD8D295DA7D82B1DF4 /* PBXContainerItemProxy */ = {
+		46200304BE2EA7A94C81016EBE3B3719 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 13967D9472FC1F8ACB9AD2DF1A02FC7B;
+			remoteGlobalIDString = 05DB0BBF30066411A46D879E370CE1A4;
 			remoteInfo = "NSString-Email";
+		};
+		5DD9FD9220195930A0ACEDB6F7C312E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3AB7ECB7B58CED809EB3DC90E5F5558;
+			remoteInfo = OKActiveButton;
+		};
+		9D46A69290128116C4D1D955F3969B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB3B7F685165003A3D5A1EEBEAD9024C;
+			remoteInfo = AKNumericFormatter;
+		};
+		A0F33517972D38B20807F80274F837EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05DB0BBF30066411A46D879E370CE1A4;
+			remoteInfo = "NSString-Email";
+		};
+		C83C5245DEDD376008671E76C0CAB377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 694F9E689D326D985582CFD80493B433;
+			remoteInfo = CAHorizontalGradientLayer;
+		};
+		DF9CBC6995BE685BD0AD09C4550D04B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB3B7F685165003A3D5A1EEBEAD9024C;
+			remoteInfo = AKNumericFormatter;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01A8A8C20E050A3A5B4F50669C1DFA4B /* NSString+Email.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Email.m"; path = "NSString-Email/NSString+Email.m"; sourceTree = "<group>"; };
-		0FFC61152D015099C466119D4931817B /* OKPasswordTextFieldView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OKPasswordTextFieldView.m; sourceTree = "<group>"; };
+		02ECB9EB09105B2756B094D5EBE2C736 /* AKNumericFormatter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AKNumericFormatter.modulemap; sourceTree = "<group>"; };
+		07CAA73CC60896EFF4F2FE025617A8FA /* NSString_Email.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NSString_Email.framework; path = "NSString-Email.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08A87DEEFFE95F7951255170BBBFC3EC /* OKActiveButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKActiveButton.h; path = OKActiveButton/Classes/OKActiveButton.h; sourceTree = "<group>"; };
+		0CB0FA93A41AA978F9E774B33CD5B134 /* OKActiveButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OKActiveButton.xcconfig; sourceTree = "<group>"; };
+		0D80C86FB6DDCFD2B92FCB336BF19E9B /* AKNumericFormatter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKNumericFormatter-umbrella.h"; sourceTree = "<group>"; };
 		140BC2FCB311395A2B56D96548897CFF /* OKTextFieldView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OKTextFieldView-umbrella.h"; sourceTree = "<group>"; };
-		186553477707BD0EE026BD6718518AB2 /* OKEmailTextFieldView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OKEmailTextFieldView.h; sourceTree = "<group>"; };
-		195D0DE9485AB491AF9AE770432BCC86 /* CAHorizontalGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CAHorizontalGradientLayer.m; path = CAHorizontalGradientLayer/Classes/CAHorizontalGradientLayer.m; sourceTree = "<group>"; };
-		1A24C36C5B0B224D6E30F1B0E2151A89 /* CAHorizontalGradientLayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CAHorizontalGradientLayer.xcconfig; sourceTree = "<group>"; };
-		1BBA04845AF1FF229911C0709277BD32 /* OKActiveButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OKActiveButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		27E77A8299525D56791B428D174E46DF /* NSString+Email.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Email.h"; path = "NSString-Email/NSString+Email.h"; sourceTree = "<group>"; };
-		28D58A7D0378F23B5E899C2F1E7A15DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		147476991E373D1E6339F0D93287C1CD /* OKEmailTextFieldView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OKEmailTextFieldView.h; sourceTree = "<group>"; };
+		149137E36543C93E223A35BAAE8D80F7 /* NSString+AKNumericFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+AKNumericFormatter.h"; path = "AKNumericFormatter/AKNumericFormatter/NSString+AKNumericFormatter.h"; sourceTree = "<group>"; };
+		15B034D54A0D4EFFFA2BF8C9CD765668 /* OKTextFieldView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OKTextFieldView.framework; path = OKTextFieldView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1776F68E9A7F6D4CF016FA05B0D79914 /* OKTextFieldView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OKTextFieldView.h; sourceTree = "<group>"; };
+		18609CDF508CB1331F7236C4AE5A7CB4 /* NSString-Email-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString-Email-umbrella.h"; sourceTree = "<group>"; };
+		197EBA7576D3C3C50398255A7C6E5D20 /* Pods_OKTextFieldView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OKTextFieldView_Tests.framework; path = "Pods-OKTextFieldView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19910BD3B9846A67E5E431938269666A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B09F6940C4A8056B8D8E5D3CD719EEF /* NSString-Email.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "NSString-Email.xcconfig"; sourceTree = "<group>"; };
+		268006D3D273314F9A04C6BDD41A98BF /* OKTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OKTextField.h; sourceTree = "<group>"; };
+		287EB7D32E69A8B20B352707720AFE9C /* UITextField+AKNumericFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+AKNumericFormatter.h"; path = "AKNumericFormatter/AKNumericFormatter/UITextField+AKNumericFormatter.h"; sourceTree = "<group>"; };
 		28DDB46203266F7229BB2D8FF358DFBE /* Pods-OKTextFieldView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OKTextFieldView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2BA13F9B23DBB872D7B3F80C9CE68178 /* Pods-OKTextFieldView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OKTextFieldView_Tests-resources.sh"; sourceTree = "<group>"; };
+		2DD01CBDA816202655B615E5357B0EE3 /* AKNumericFormatter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKNumericFormatter-prefix.pch"; sourceTree = "<group>"; };
 		2E9DF929F2CAAADC3B4A92FA76488317 /* Pods-OKTextFieldView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OKTextFieldView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3678413DBA01EAEE1BCC943894FF3804 /* NSString-Email-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString-Email-umbrella.h"; sourceTree = "<group>"; };
-		38E20B7516481A3D20DCB4C29247DF8B /* OKActiveButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OKActiveButton-umbrella.h"; sourceTree = "<group>"; };
+		34585337819F295B6EAD39192BC79AEF /* CAHorizontalGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CAHorizontalGradientLayer.h; path = CAHorizontalGradientLayer/Classes/CAHorizontalGradientLayer.h; sourceTree = "<group>"; };
+		352C968AA2716DE928167302660BC752 /* CAHorizontalGradientLayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CAHorizontalGradientLayer.xcconfig; sourceTree = "<group>"; };
+		3625C9F2857F058DA72C3FD57CD39A5F /* AKNumericFormatter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AKNumericFormatter-dummy.m"; sourceTree = "<group>"; };
+		36E61649E1991475D2EAE6DE15BE0120 /* OKActiveButton+Gradient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OKActiveButton+Gradient.h"; path = "OKActiveButton/Classes/OKActiveButton+Gradient.h"; sourceTree = "<group>"; };
+		3956923E927D5BDAD5348573EEBFF2A1 /* OKActiveButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = OKActiveButton.modulemap; sourceTree = "<group>"; };
+		3B79DB5BD21ABD27CDAC7665FADD30D2 /* OKActiveButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OKActiveButton.framework; path = OKActiveButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BFBF015D6D549D85B2B85FCF6C91B91 /* Pods-OKTextFieldView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OKTextFieldView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3CB11D1A54CAE0B46839FF50D12FDA9B /* Pods-OKTextFieldView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OKTextFieldView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3ED1409D5537E0A7F4ABA6BE7D04288D /* AKNumericFormatter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AKNumericFormatter.framework; path = AKNumericFormatter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EFA63E1342A7D502BF4B4D11F645880 /* Pods-OKTextFieldView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OKTextFieldView_Example-umbrella.h"; sourceTree = "<group>"; };
+		43867A38B2EA81524F68C0743F48DE5C /* NSString+Email.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Email.h"; path = "NSString-Email/NSString+Email.h"; sourceTree = "<group>"; };
+		4549142A61C0522D8D21A2A662716D1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4ABAC9CB02C09DA2E8AF701073127091 /* Pods-OKTextFieldView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OKTextFieldView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4F51EC96F82CF99477A72CE79BE519C1 /* OKTextFieldView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OKTextFieldView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		58C964C0A6EC5DDC02D782850E8C5C85 /* OKTextFieldView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OKTextFieldView.modulemap; sourceTree = "<group>"; };
-		5AB4727F3B38491188F035218A4CB5A0 /* OKActiveButton+Gradient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OKActiveButton+Gradient.m"; path = "OKActiveButton/Classes/OKActiveButton+Gradient.m"; sourceTree = "<group>"; };
+		4B2FACB3735587BEB95F41B0052A127B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F615443CE5069DE5BDE396355D9C031 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = OKActiveButton/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		58C964C0A6EC5DDC02D782850E8C5C85 /* OKTextFieldView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = OKTextFieldView.modulemap; sourceTree = "<group>"; };
+		5B2EC10EB9D9CDC82547737C0C036B2D /* OKPasswordTextFieldView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OKPasswordTextFieldView.m; sourceTree = "<group>"; };
 		5BFBC398F9EA789C3D2BD57A9BC58D97 /* Pods-OKTextFieldView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OKTextFieldView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5E77885E72FB1E0B6F4947D89AC26414 /* CAHorizontalGradientLayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAHorizontalGradientLayer-umbrella.h"; sourceTree = "<group>"; };
-		5F4D17A8542DD39C753D277847D89EAA /* NSString_Email.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSString_Email.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FDE2D6B34DFBD4957230EAFFCB5F95F /* OKActiveButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OKActiveButton-prefix.pch"; sourceTree = "<group>"; };
-		631D5920CCA28E627BBE03DDA6C90170 /* NSString-Email-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString-Email-dummy.m"; sourceTree = "<group>"; };
 		66EE5B47000DE3B774FFD554CF380D20 /* Pods-OKTextFieldView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OKTextFieldView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		67F629A19010495185E5D64697CCB394 /* Pods_OKTextFieldView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OKTextFieldView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D737A380D267B49A21640D77A15760B /* Pods_OKTextFieldView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OKTextFieldView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E5C8C3F2E6F89EEE7E5C870FF03AE6E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		700612F5766181313C7157AEC0B1FBD7 /* Pods-OKTextFieldView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OKTextFieldView_Tests.modulemap"; sourceTree = "<group>"; };
-		7D2B9772CC83CD6F00E986A0E1483356 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = OKActiveButton/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		81A4B00D3EC83D986BCEFD82768677D0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CAHorizontalGradientLayer/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		84BB33F03E737455194F85E7CFED0A27 /* OKActiveButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OKActiveButton.m; path = OKActiveButton/Classes/OKActiveButton.m; sourceTree = "<group>"; };
-		84F0FEEECA00342A41B18636D92128F4 /* NSString_Email.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSString_Email.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		86D392ABBF8388892FBE8E08E2CD715D /* NSString-Email-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString-Email-prefix.pch"; sourceTree = "<group>"; };
+		694ACE529216474274ED5C95BDB38573 /* NSString+AKNumericFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+AKNumericFormatter.m"; path = "AKNumericFormatter/AKNumericFormatter/NSString+AKNumericFormatter.m"; sourceTree = "<group>"; };
+		700612F5766181313C7157AEC0B1FBD7 /* Pods-OKTextFieldView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-OKTextFieldView_Tests.modulemap"; sourceTree = "<group>"; };
+		7044E4F441A42680FE521423F989C3CE /* Pods_OKTextFieldView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OKTextFieldView_Example.framework; path = "Pods-OKTextFieldView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72E39A07239CCA11AB9EB3A856698387 /* NSString-Email-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString-Email-dummy.m"; sourceTree = "<group>"; };
+		7741089DCD746D9DD03425F96CBF55D8 /* CAHorizontalGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CAHorizontalGradientLayer.m; path = CAHorizontalGradientLayer/Classes/CAHorizontalGradientLayer.m; sourceTree = "<group>"; };
+		82A58B8AA1FAEA5293C605F844C007BC /* NSString-Email.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "NSString-Email.modulemap"; sourceTree = "<group>"; };
+		8410135C54A432D023B6B5E603B5D66C /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CAHorizontalGradientLayer/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		842094B40113078584FAA1229235C73C /* OKEmailTextFieldView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OKEmailTextFieldView.m; sourceTree = "<group>"; };
+		8DCB612580FAAF8DE60A46590591D618 /* OKPasswordTextFieldView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OKPasswordTextFieldView.h; sourceTree = "<group>"; };
 		905B67E0E2375D0DDEA0592F13C90F47 /* Pods-OKTextFieldView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OKTextFieldView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		949DF718827529DD0CF46E77B4BE0FA0 /* CAHorizontalGradientLayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CAHorizontalGradientLayer-dummy.m"; sourceTree = "<group>"; };
+		90F38B24AFABE282F1D549B0B2B3D94B /* OKActiveButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OKActiveButton-dummy.m"; sourceTree = "<group>"; };
+		938F36C9D7646A9F30CEFDA45E5F4687 /* OKActiveButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OKActiveButton-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		972BE2791BB967D015A59F35FDB5B926 /* Pods-OKTextFieldView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OKTextFieldView_Example-dummy.m"; sourceTree = "<group>"; };
-		9AD9DFBCDD092E9B5A9CD166978058EE /* NSString-Email.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "NSString-Email.modulemap"; sourceTree = "<group>"; };
 		9D040B260F841BB7D1245F0EE1A4A74E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D15B86C84CB814341633658244C61C1 /* OKTextFieldView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OKTextFieldView-dummy.m"; sourceTree = "<group>"; };
-		A0859EDCB09326A770175D641256AF26 /* CAHorizontalGradientLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CAHorizontalGradientLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1A56EB06127A44A75764EBEEC454178 /* OKTextFieldView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OKTextFieldView.m; sourceTree = "<group>"; };
-		A451DE5F272078DFBCC4733D6C9E076A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A608484C4D13B17D0CB98CCA003EFFB7 /* OKPasswordTextFieldView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OKPasswordTextFieldView.h; sourceTree = "<group>"; };
-		AA23A0F7EF47361704A0C1D87A74FD98 /* OKActiveButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKActiveButton.h; path = OKActiveButton/Classes/OKActiveButton.h; sourceTree = "<group>"; };
+		A62192C92B5305055B06F10128140D51 /* CAHorizontalGradientLayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CAHorizontalGradientLayer-dummy.m"; sourceTree = "<group>"; };
+		A660A28F120D1E1AAE6EB0794E3AE007 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A97B13C1BC80D6AD3916FEFED9431660 /* OKActiveButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OKActiveButton-umbrella.h"; sourceTree = "<group>"; };
 		AB124FD4B65C939FAF95AE8991FFD934 /* OKTextFieldView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OKTextFieldView-prefix.pch"; sourceTree = "<group>"; };
 		ABB40CEE0344F0EF0CEAE07B212F73B1 /* Pods-OKTextFieldView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OKTextFieldView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B471CD453CDFD3C99C0C3B4660D67BAE /* OKActiveButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OKActiveButton.xcconfig; sourceTree = "<group>"; };
 		B9C4B991D92D5C5AA5C7B27B3684403D /* Pods-OKTextFieldView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OKTextFieldView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BBE9DC1A5C03BD6223035EDEAB1C5619 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD71411000BAEB4DA9AE9D3507ADDA42 /* Pods-OKTextFieldView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OKTextFieldView_Example.modulemap"; sourceTree = "<group>"; };
-		C50E2E2B4E1229589E64601076A6AAC7 /* NSString-Email.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "NSString-Email.xcconfig"; sourceTree = "<group>"; };
-		C5BED9D8A751D7CB7B9D9BDA8E603A35 /* OKActiveButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OKActiveButton.modulemap; sourceTree = "<group>"; };
-		C6222F9DCE179B5701A4EB88C0F80832 /* CAHorizontalGradientLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CAHorizontalGradientLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8F4A9FA6946D18F97E92FC42457A3FD /* OKTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OKTextField.h; sourceTree = "<group>"; };
+		BD71411000BAEB4DA9AE9D3507ADDA42 /* Pods-OKTextFieldView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-OKTextFieldView_Example.modulemap"; sourceTree = "<group>"; };
+		C14F6EF1876CABCF13BB37593BF8ADE2 /* AKNumericFormatter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AKNumericFormatter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8CA6292AD6E996F4F64DBBC2A81B36C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB87028EB4222E3D431D61DB29E9EF8D /* OKPhoneTextFieldView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OKPhoneTextFieldView.m; sourceTree = "<group>"; };
 		CCEE864A9874BB98A358E01B2CB446F7 /* Pods-OKTextFieldView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OKTextFieldView_Example-resources.sh"; sourceTree = "<group>"; };
-		D199D87614D489DD4CDCE16EAA96508C /* OKActiveButton+Gradient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OKActiveButton+Gradient.h"; path = "OKActiveButton/Classes/OKActiveButton+Gradient.h"; sourceTree = "<group>"; };
-		D84C9E482AC237D60E231A9A532AD6BD /* CAHorizontalGradientLayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAHorizontalGradientLayer-prefix.pch"; sourceTree = "<group>"; };
+		D00CF899E8BB0AB4181EB6B353CBA025 /* OKPhoneTextFieldView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OKPhoneTextFieldView.h; sourceTree = "<group>"; };
+		D1B3B23D84EE1E1B2DCA8DFC654EA7B3 /* OKTextFieldView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OKTextFieldView.m; sourceTree = "<group>"; };
+		D5B3A3D8A68F21CA3CCCE7D962195473 /* CAHorizontalGradientLayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAHorizontalGradientLayer-umbrella.h"; sourceTree = "<group>"; };
+		D5CC807BFE55B1C318F0A5372C2FEAEE /* AKNumericFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKNumericFormatter.h; path = AKNumericFormatter/AKNumericFormatter/AKNumericFormatter.h; sourceTree = "<group>"; };
+		D640159178D4E9E83A884C6F4CB15F2A /* CAHorizontalGradientLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CAHorizontalGradientLayer.framework; path = CAHorizontalGradientLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E13A19AE3EE63DB2F97999E2ED045D41 /* Pods-OKTextFieldView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OKTextFieldView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2F967163D75375CADB0F85E51A92EF5 /* CAHorizontalGradientLayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CAHorizontalGradientLayer.modulemap; sourceTree = "<group>"; };
 		E596C04AD19506BD32DE456DB63B6D9C /* OKTextFieldView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OKTextFieldView.xcconfig; sourceTree = "<group>"; };
 		E64346D213C7F2757D47F585EA655D85 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F28B95EBF305226438477090E775CEA7 /* OKEmailTextFieldView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OKEmailTextFieldView.m; sourceTree = "<group>"; };
+		E6B568474F443E91AC2748EBD42454A9 /* NSString_Email.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSString_Email.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94B2832B3CE863A49D499EDA1B67E8A /* NSString-Email-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString-Email-prefix.pch"; sourceTree = "<group>"; };
+		EBE02889D2AE6021CF9E862CE1C2CC96 /* AKNumericFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AKNumericFormatter.m; path = AKNumericFormatter/AKNumericFormatter/AKNumericFormatter.m; sourceTree = "<group>"; };
+		F056526AAA9B52B12BE81EFFE8E0C2F1 /* OKActiveButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OKActiveButton.m; path = OKActiveButton/Classes/OKActiveButton.m; sourceTree = "<group>"; };
+		F1FAC77984EC3595DDA574B58AC839DE /* AKNumericFormatter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AKNumericFormatter.xcconfig; sourceTree = "<group>"; };
+		F229491F7B5DCBDE7B521B860E6DC958 /* NSString+Email.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Email.m"; path = "NSString-Email/NSString+Email.m"; sourceTree = "<group>"; };
 		F406F3A331FCB7FD41A936302B8214F8 /* Pods-OKTextFieldView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OKTextFieldView_Tests-dummy.m"; sourceTree = "<group>"; };
-		F49F894FAD8F7B04C013E99D64A39BC1 /* OKActiveButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OKActiveButton-dummy.m"; sourceTree = "<group>"; };
-		F4B03391079869C0C90E2D730A157D00 /* CAHorizontalGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CAHorizontalGradientLayer.h; path = CAHorizontalGradientLayer/Classes/CAHorizontalGradientLayer.h; sourceTree = "<group>"; };
-		F6196BCCDE28AAE36560AEAB86F9C637 /* CAHorizontalGradientLayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CAHorizontalGradientLayer.modulemap; sourceTree = "<group>"; };
+		F6D8EB5CD7D9CFEB2A6F7D29A48F97C4 /* OKActiveButton+Gradient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OKActiveButton+Gradient.m"; path = "OKActiveButton/Classes/OKActiveButton+Gradient.m"; sourceTree = "<group>"; };
+		FA1CB240946C3EFB4B077D043A56130C /* UITextField+AKNumericFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+AKNumericFormatter.m"; path = "AKNumericFormatter/AKNumericFormatter/UITextField+AKNumericFormatter.m"; sourceTree = "<group>"; };
+		FA87A1D1490551049C524B11AA852D5E /* CAHorizontalGradientLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CAHorizontalGradientLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFD36956E62147EFB2F4462136835B3 /* CAHorizontalGradientLayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAHorizontalGradientLayer-prefix.pch"; sourceTree = "<group>"; };
 		FCB8597BB6CBF2347365D2F4EEBB47A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE0C2BFD0F111264FFBB3E86122BBA53 /* OKTextFieldView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OKTextFieldView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		38CD15FB92B8E94B599E9825100FD1A8 /* Frameworks */ = {
+		02F3C4C10EF146D52BC225DDF7FB4706 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79B8C67D48B9B16ACF98AFBA153DDDD3 /* Foundation.framework in Frameworks */,
+				7B18EA36D7367B27CB4A527D2628130D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3CAD0ACF0428A4F82E8E492102C3E752 /* Frameworks */ = {
+		1BD9D2759A63D6D390BD285592B672B1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68E66B39869497C63BDD1044474C3977 /* Foundation.framework in Frameworks */,
-				432968DED5D7564EC7F875E73A60750B /* NSString_Email.framework in Frameworks */,
+				25DF3B11A43CEA68B98C8CC3FF8F6A73 /* AKNumericFormatter.framework in Frameworks */,
+				D41039BD3DBC9EAE76F0FA1509222831 /* Foundation.framework in Frameworks */,
+				C265D84296FBFE38C166733AEB4B17D2 /* NSString_Email.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4CBA5ACF77F26C63634F1115380AAB41 /* Frameworks */ = {
+		763F6863D15AC7676B2F8D86522F6D8B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29E91C4D4495AF7387A8F6DF312E90F2 /* CAHorizontalGradientLayer.framework in Frameworks */,
-				55AD9924B22869993E4A47FB54C48EF3 /* Foundation.framework in Frameworks */,
+				A75F72963D0EBC8683D2E7D506FC9E1E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1924E83F134B18823679624DB4C0171 /* Frameworks */ = {
+		78215391D295F2EEFB68A229056BE6F0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				413439D76464360F6C63BCE1CDD04305 /* Foundation.framework in Frameworks */,
+				592985B78B356E284B90A45E5D6766D8 /* CAHorizontalGradientLayer.framework in Frameworks */,
+				C84DC357077C639CAFEC05829B9034DC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B506B4DACE6C716A67D051567DD54B38 /* Frameworks */ = {
+		AB2E3A07B17E0389A511981B2A310AEB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5221008912013F32C45A2837B13F62E /* Foundation.framework in Frameworks */,
+				452EE626CB311B18B827331A90BE7A16 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE9DA11CB7DF758746C0188C89CBB1B0 /* Frameworks */ = {
+		ABCCB4C365F64FB86C65461E3F6DF314 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58A2556B8742D196EAF7157E8AD56D42 /* Foundation.framework in Frameworks */,
+				D008D65BBCB40968CA34C87DCA44F25C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A13C5A8ED8C3407D5CC1B67D6800B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				961D061DFE810C26D70BF09CE5CCA416 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D157B645B9286131D10E93C9746FE90 /* OKActiveButton */ = {
+			isa = PBXGroup;
+			children = (
+				08A87DEEFFE95F7951255170BBBFC3EC /* OKActiveButton.h */,
+				F056526AAA9B52B12BE81EFFE8E0C2F1 /* OKActiveButton.m */,
+				36E61649E1991475D2EAE6DE15BE0120 /* OKActiveButton+Gradient.h */,
+				F6D8EB5CD7D9CFEB2A6F7D29A48F97C4 /* OKActiveButton+Gradient.m */,
+				4F615443CE5069DE5BDE396355D9C031 /* ReplaceMe.m */,
+				6B799F2EAA62F08180F0DC27A6F52B28 /* Support Files */,
+			);
+			name = OKActiveButton;
+			path = OKActiveButton;
+			sourceTree = "<group>";
+		};
+		13EFC2CC9110FA210193E369491164AD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				02ECB9EB09105B2756B094D5EBE2C736 /* AKNumericFormatter.modulemap */,
+				F1FAC77984EC3595DDA574B58AC839DE /* AKNumericFormatter.xcconfig */,
+				3625C9F2857F058DA72C3FD57CD39A5F /* AKNumericFormatter-dummy.m */,
+				2DD01CBDA816202655B615E5357B0EE3 /* AKNumericFormatter-prefix.pch */,
+				0D80C86FB6DDCFD2B92FCB336BF19E9B /* AKNumericFormatter-umbrella.h */,
+				A660A28F120D1E1AAE6EB0794E3AE007 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AKNumericFormatter";
+			sourceTree = "<group>";
+		};
 		1643B7EEAD4CC707FF9F515ECB8B9363 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,14 +305,6 @@
 				D496F0D6459506ACD3C7023369AE832B /* Pods-OKTextFieldView_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		19CEF44BAA524F5E586E49C40794A4F7 /* OKTextFieldView */ = {
-			isa = PBXGroup;
-			children = (
-				EA03272DE8BECEA7B3F00376471EBAEE /* Classes */,
-			);
-			path = OKTextFieldView;
 			sourceTree = "<group>";
 		};
 		1DAF08FDA84E362ABA41297ED5E8D1DB /* Development Pods */ = {
@@ -244,46 +315,15 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		2853A4E3247CD5CC62705012A7B932B4 /* iOS */ = {
+		257B76185CF8D1A51F1D822B35EA8E23 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				28D58A7D0378F23B5E899C2F1E7A15DB /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		29E2E19DF0395D9357AC0405085A25DA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7671AB34B3F7C69E512F1FE8F02156A2 /* CAHorizontalGradientLayer */,
-				F9C8A0D81C86D26354A72CD7BF5E6DAD /* NSString-Email */,
-				73B2FE421586F9732630987A113A0AFF /* OKActiveButton */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		2FBF9C7B0BC70A79F63C3121D2D93131 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C6222F9DCE179B5701A4EB88C0F80832 /* CAHorizontalGradientLayer.framework */,
-				5F4D17A8542DD39C753D277847D89EAA /* NSString_Email.framework */,
-				2853A4E3247CD5CC62705012A7B932B4 /* iOS */,
+				C14F6EF1876CABCF13BB37593BF8ADE2 /* AKNumericFormatter.framework */,
+				FA87A1D1490551049C524B11AA852D5E /* CAHorizontalGradientLayer.framework */,
+				E6B568474F443E91AC2748EBD42454A9 /* NSString_Email.framework */,
+				E6E41D8E55D459358355AFD4B3E28B42 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		35BBFF029B8C2DCA9B58906E42886896 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F6196BCCDE28AAE36560AEAB86F9C637 /* CAHorizontalGradientLayer.modulemap */,
-				1A24C36C5B0B224D6E30F1B0E2151A89 /* CAHorizontalGradientLayer.xcconfig */,
-				949DF718827529DD0CF46E77B4BE0FA0 /* CAHorizontalGradientLayer-dummy.m */,
-				D84C9E482AC237D60E231A9A532AD6BD /* CAHorizontalGradientLayer-prefix.pch */,
-				5E77885E72FB1E0B6F4947D89AC26414 /* CAHorizontalGradientLayer-umbrella.h */,
-				BBE9DC1A5C03BD6223035EDEAB1C5619 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/CAHorizontalGradientLayer";
 			sourceTree = "<group>";
 		};
 		3C09D0BF48819D8E7BA27BC7B5BE7241 /* Pods-OKTextFieldView_Example */ = {
@@ -304,41 +344,78 @@
 			path = "Target Support Files/Pods-OKTextFieldView_Example";
 			sourceTree = "<group>";
 		};
-		42E6B4BF704A4F208962FE7D9F850C8D /* Support Files */ = {
+		3E4C74E05943585364D5A01E244CB91C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A451DE5F272078DFBCC4733D6C9E076A /* Info.plist */,
-				C5BED9D8A751D7CB7B9D9BDA8E603A35 /* OKActiveButton.modulemap */,
-				B471CD453CDFD3C99C0C3B4660D67BAE /* OKActiveButton.xcconfig */,
-				F49F894FAD8F7B04C013E99D64A39BC1 /* OKActiveButton-dummy.m */,
-				5FDE2D6B34DFBD4957230EAFFCB5F95F /* OKActiveButton-prefix.pch */,
-				38E20B7516481A3D20DCB4C29247DF8B /* OKActiveButton-umbrella.h */,
+				3ED1409D5537E0A7F4ABA6BE7D04288D /* AKNumericFormatter.framework */,
+				D640159178D4E9E83A884C6F4CB15F2A /* CAHorizontalGradientLayer.framework */,
+				07CAA73CC60896EFF4F2FE025617A8FA /* NSString_Email.framework */,
+				3B79DB5BD21ABD27CDAC7665FADD30D2 /* OKActiveButton.framework */,
+				15B034D54A0D4EFFFA2BF8C9CD765668 /* OKTextFieldView.framework */,
+				7044E4F441A42680FE521423F989C3CE /* Pods_OKTextFieldView_Example.framework */,
+				197EBA7576D3C3C50398255A7C6E5D20 /* Pods_OKTextFieldView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43FEBE373C6311D785D325B32140A27D /* AKNumericFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				D5CC807BFE55B1C318F0A5372C2FEAEE /* AKNumericFormatter.h */,
+				EBE02889D2AE6021CF9E862CE1C2CC96 /* AKNumericFormatter.m */,
+				149137E36543C93E223A35BAAE8D80F7 /* NSString+AKNumericFormatter.h */,
+				694ACE529216474274ED5C95BDB38573 /* NSString+AKNumericFormatter.m */,
+				287EB7D32E69A8B20B352707720AFE9C /* UITextField+AKNumericFormatter.h */,
+				FA1CB240946C3EFB4B077D043A56130C /* UITextField+AKNumericFormatter.m */,
+				13EFC2CC9110FA210193E369491164AD /* Support Files */,
+			);
+			name = AKNumericFormatter;
+			path = AKNumericFormatter;
+			sourceTree = "<group>";
+		};
+		4E1D06ED5145566CD21FAC3AB1D94C3F /* OKTextFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				F3FF08A7906F5A71C51E88895ED2DD3C /* Classes */,
+			);
+			name = OKTextFieldView;
+			path = OKTextFieldView;
+			sourceTree = "<group>";
+		};
+		6B799F2EAA62F08180F0DC27A6F52B28 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8CA6292AD6E996F4F64DBBC2A81B36C /* Info.plist */,
+				3956923E927D5BDAD5348573EEBFF2A1 /* OKActiveButton.modulemap */,
+				0CB0FA93A41AA978F9E774B33CD5B134 /* OKActiveButton.xcconfig */,
+				90F38B24AFABE282F1D549B0B2B3D94B /* OKActiveButton-dummy.m */,
+				938F36C9D7646A9F30CEFDA45E5F4687 /* OKActiveButton-prefix.pch */,
+				A97B13C1BC80D6AD3916FEFED9431660 /* OKActiveButton-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/OKActiveButton";
 			sourceTree = "<group>";
 		};
-		73B2FE421586F9732630987A113A0AFF /* OKActiveButton */ = {
+		7360FDAF14523005945F3BB7DF472158 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AA23A0F7EF47361704A0C1D87A74FD98 /* OKActiveButton.h */,
-				84BB33F03E737455194F85E7CFED0A27 /* OKActiveButton.m */,
-				D199D87614D489DD4CDCE16EAA96508C /* OKActiveButton+Gradient.h */,
-				5AB4727F3B38491188F035218A4CB5A0 /* OKActiveButton+Gradient.m */,
-				7D2B9772CC83CD6F00E986A0E1483356 /* ReplaceMe.m */,
-				42E6B4BF704A4F208962FE7D9F850C8D /* Support Files */,
+				43FEBE373C6311D785D325B32140A27D /* AKNumericFormatter */,
+				73A889DF1667E88FDB4618613B289DA6 /* CAHorizontalGradientLayer */,
+				CDBE2EE97C4101DB14D18DCC0C11648E /* NSString-Email */,
+				0D157B645B9286131D10E93C9746FE90 /* OKActiveButton */,
 			);
-			path = OKActiveButton;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		7671AB34B3F7C69E512F1FE8F02156A2 /* CAHorizontalGradientLayer */ = {
+		73A889DF1667E88FDB4618613B289DA6 /* CAHorizontalGradientLayer */ = {
 			isa = PBXGroup;
 			children = (
-				F4B03391079869C0C90E2D730A157D00 /* CAHorizontalGradientLayer.h */,
-				195D0DE9485AB491AF9AE770432BCC86 /* CAHorizontalGradientLayer.m */,
-				81A4B00D3EC83D986BCEFD82768677D0 /* ReplaceMe.m */,
-				35BBFF029B8C2DCA9B58906E42886896 /* Support Files */,
+				34585337819F295B6EAD39192BC79AEF /* CAHorizontalGradientLayer.h */,
+				7741089DCD746D9DD03425F96CBF55D8 /* CAHorizontalGradientLayer.m */,
+				8410135C54A432D023B6B5E603B5D66C /* ReplaceMe.m */,
+				903A655F9A05A9F6E2EA1F3CFBD8D51E /* Support Files */,
 			);
+			name = CAHorizontalGradientLayer;
 			path = CAHorizontalGradientLayer;
 			sourceTree = "<group>";
 		};
@@ -347,9 +424,9 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				1DAF08FDA84E362ABA41297ED5E8D1DB /* Development Pods */,
-				2FBF9C7B0BC70A79F63C3121D2D93131 /* Frameworks */,
-				29E2E19DF0395D9357AC0405085A25DA /* Pods */,
-				E3AE9353988143CD1A4369728B946330 /* Products */,
+				257B76185CF8D1A51F1D822B35EA8E23 /* Frameworks */,
+				7360FDAF14523005945F3BB7DF472158 /* Pods */,
+				3E4C74E05943585364D5A01E244CB91C /* Products */,
 				1643B7EEAD4CC707FF9F515ECB8B9363 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -357,11 +434,25 @@
 		7DD358E35F746A51D5F73BCF68AF7F9C /* OKTextFieldView */ = {
 			isa = PBXGroup;
 			children = (
-				19CEF44BAA524F5E586E49C40794A4F7 /* OKTextFieldView */,
+				4E1D06ED5145566CD21FAC3AB1D94C3F /* OKTextFieldView */,
 				BA7B2F482D249B7DB1DAE53FB9A83D0B /* Support Files */,
 			);
 			name = OKTextFieldView;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		903A655F9A05A9F6E2EA1F3CFBD8D51E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2F967163D75375CADB0F85E51A92EF5 /* CAHorizontalGradientLayer.modulemap */,
+				352C968AA2716DE928167302660BC752 /* CAHorizontalGradientLayer.xcconfig */,
+				A62192C92B5305055B06F10128140D51 /* CAHorizontalGradientLayer-dummy.m */,
+				FAFD36956E62147EFB2F4462136835B3 /* CAHorizontalGradientLayer-prefix.pch */,
+				D5B3A3D8A68F21CA3CCCE7D962195473 /* CAHorizontalGradientLayer-umbrella.h */,
+				4B2FACB3735587BEB95F41B0052A127B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CAHorizontalGradientLayer";
 			sourceTree = "<group>";
 		};
 		BA7B2F482D249B7DB1DAE53FB9A83D0B /* Support Files */ = {
@@ -376,6 +467,31 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/OKTextFieldView";
+			sourceTree = "<group>";
+		};
+		BBC313C5FEDAD8F52828F74033E4EE08 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				19910BD3B9846A67E5E431938269666A /* Info.plist */,
+				82A58B8AA1FAEA5293C605F844C007BC /* NSString-Email.modulemap */,
+				1B09F6940C4A8056B8D8E5D3CD719EEF /* NSString-Email.xcconfig */,
+				72E39A07239CCA11AB9EB3A856698387 /* NSString-Email-dummy.m */,
+				E94B2832B3CE863A49D499EDA1B67E8A /* NSString-Email-prefix.pch */,
+				18609CDF508CB1331F7236C4AE5A7CB4 /* NSString-Email-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NSString-Email";
+			sourceTree = "<group>";
+		};
+		CDBE2EE97C4101DB14D18DCC0C11648E /* NSString-Email */ = {
+			isa = PBXGroup;
+			children = (
+				43867A38B2EA81524F68C0743F48DE5C /* NSString+Email.h */,
+				F229491F7B5DCBDE7B521B860E6DC958 /* NSString+Email.m */,
+				BBC313C5FEDAD8F52828F74033E4EE08 /* Support Files */,
+			);
+			name = "NSString-Email";
+			path = "NSString-Email";
 			sourceTree = "<group>";
 		};
 		D496F0D6459506ACD3C7023369AE832B /* Pods-OKTextFieldView_Tests */ = {
@@ -396,165 +512,112 @@
 			path = "Target Support Files/Pods-OKTextFieldView_Tests";
 			sourceTree = "<group>";
 		};
-		D9DC4B3730446CF81C3A96748435DC0F /* Support Files */ = {
+		E6E41D8E55D459358355AFD4B3E28B42 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				6E5C8C3F2E6F89EEE7E5C870FF03AE6E /* Info.plist */,
-				9AD9DFBCDD092E9B5A9CD166978058EE /* NSString-Email.modulemap */,
-				C50E2E2B4E1229589E64601076A6AAC7 /* NSString-Email.xcconfig */,
-				631D5920CCA28E627BBE03DDA6C90170 /* NSString-Email-dummy.m */,
-				86D392ABBF8388892FBE8E08E2CD715D /* NSString-Email-prefix.pch */,
-				3678413DBA01EAEE1BCC943894FF3804 /* NSString-Email-umbrella.h */,
+				4549142A61C0522D8D21A2A662716D1A /* Foundation.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/NSString-Email";
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		E3AE9353988143CD1A4369728B946330 /* Products */ = {
+		F3FF08A7906F5A71C51E88895ED2DD3C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A0859EDCB09326A770175D641256AF26 /* CAHorizontalGradientLayer.framework */,
-				84F0FEEECA00342A41B18636D92128F4 /* NSString_Email.framework */,
-				1BBA04845AF1FF229911C0709277BD32 /* OKActiveButton.framework */,
-				4F51EC96F82CF99477A72CE79BE519C1 /* OKTextFieldView.framework */,
-				6D737A380D267B49A21640D77A15760B /* Pods_OKTextFieldView_Example.framework */,
-				67F629A19010495185E5D64697CCB394 /* Pods_OKTextFieldView_Tests.framework */,
+				147476991E373D1E6339F0D93287C1CD /* OKEmailTextFieldView.h */,
+				842094B40113078584FAA1229235C73C /* OKEmailTextFieldView.m */,
+				8DCB612580FAAF8DE60A46590591D618 /* OKPasswordTextFieldView.h */,
+				5B2EC10EB9D9CDC82547737C0C036B2D /* OKPasswordTextFieldView.m */,
+				D00CF899E8BB0AB4181EB6B353CBA025 /* OKPhoneTextFieldView.h */,
+				CB87028EB4222E3D431D61DB29E9EF8D /* OKPhoneTextFieldView.m */,
+				268006D3D273314F9A04C6BDD41A98BF /* OKTextField.h */,
+				1776F68E9A7F6D4CF016FA05B0D79914 /* OKTextFieldView.h */,
+				D1B3B23D84EE1E1B2DCA8DFC654EA7B3 /* OKTextFieldView.m */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		EA03272DE8BECEA7B3F00376471EBAEE /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				186553477707BD0EE026BD6718518AB2 /* OKEmailTextFieldView.h */,
-				F28B95EBF305226438477090E775CEA7 /* OKEmailTextFieldView.m */,
-				A608484C4D13B17D0CB98CCA003EFFB7 /* OKPasswordTextFieldView.h */,
-				0FFC61152D015099C466119D4931817B /* OKPasswordTextFieldView.m */,
-				C8F4A9FA6946D18F97E92FC42457A3FD /* OKTextField.h */,
-				FE0C2BFD0F111264FFBB3E86122BBA53 /* OKTextFieldView.h */,
-				A1A56EB06127A44A75764EBEEC454178 /* OKTextFieldView.m */,
-			);
+			name = Classes;
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		F9C8A0D81C86D26354A72CD7BF5E6DAD /* NSString-Email */ = {
-			isa = PBXGroup;
-			children = (
-				27E77A8299525D56791B428D174E46DF /* NSString+Email.h */,
-				01A8A8C20E050A3A5B4F50669C1DFA4B /* NSString+Email.m */,
-				D9DC4B3730446CF81C3A96748435DC0F /* Support Files */,
-			);
-			path = "NSString-Email";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		08E9BFEA94D4904EBE5B7183887581DA /* Headers */ = {
+		091FBCFEA00B2F7371EC0A12AC9145CA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D1F153951C3E769ECAA8DACE4FBB879 /* NSString+Email.h in Headers */,
-				E4D3F018EA65639469580FCC1452F883 /* NSString-Email-umbrella.h in Headers */,
+				F7D69BC5150F6C8D4960D966E777453E /* Pods-OKTextFieldView_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2BA9E28729988DD81794483D0FD05EFF /* Headers */ = {
+		171A0CBCC3123B6E7BC0AE53C523CE27 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C490E9DFD2DC8924B5FD3C9B1B977B5 /* Pods-OKTextFieldView_Tests-umbrella.h in Headers */,
+				54C101B656FC105D2C19602686CB1F9C /* NSString+Email.h in Headers */,
+				64CD93461CCD46093870CEB6C407C12A /* NSString-Email-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4CF2ED06E35388F39A302ACA6043CFE9 /* Headers */ = {
+		39A127A4569D5059BE96BFDF8E2DB129 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCF646B6A30C63E74942C819F5A95E1F /* Pods-OKTextFieldView_Example-umbrella.h in Headers */,
+				51FF8798020884A3925C98D982A80031 /* CAHorizontalGradientLayer-umbrella.h in Headers */,
+				7733AB829B20FB99E83B0556B13C1839 /* CAHorizontalGradientLayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		95E6F4B4CA3707203C872CCA8C898CF2 /* Headers */ = {
+		5C53B4211C3F702A89404D4BF3FD976A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB3D6DAE9D60F3EC3FCFD036D9E3B9D1 /* OKEmailTextFieldView.h in Headers */,
-				5556775E53AE64D3AC4C29183A6C9ECD /* OKPasswordTextFieldView.h in Headers */,
-				7BFAAF55752D27289053FDEE452D89BA /* OKTextField.h in Headers */,
-				76C3B293CE97735EE53EEC9738B4A419 /* OKTextFieldView-umbrella.h in Headers */,
-				9C6E550600E48F4CFCD543EAC9A77483 /* OKTextFieldView.h in Headers */,
+				E7ADBABC8719D7606C88BAE7B1DBA0B7 /* OKEmailTextFieldView.h in Headers */,
+				BDA48C6A832408934D0B82B684BDF91C /* OKPasswordTextFieldView.h in Headers */,
+				EDEA616023313E30A7E820AD08966069 /* OKPhoneTextFieldView.h in Headers */,
+				8D99CD335DF56F339B201C6105454455 /* OKTextField.h in Headers */,
+				C790762A2FF7736BAB26EBC195BFCD36 /* OKTextFieldView-umbrella.h in Headers */,
+				AD83DF5DD085399C01A78CD85160E483 /* OKTextFieldView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B3F737381A41427750566BF674671D2 /* Headers */ = {
+		727EB19829DDF4BECA66702FBB7E6D92 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6DF0DF901D6F37D135ABE5C93C5E9F1 /* CAHorizontalGradientLayer-umbrella.h in Headers */,
-				3DD645CFA084AE0A922851B6A54AC4E7 /* CAHorizontalGradientLayer.h in Headers */,
+				704BF6EBA49D92F2A87F92BFEAD70BE7 /* OKActiveButton+Gradient.h in Headers */,
+				0B0074C8F4F30642150F8B8289BF98D4 /* OKActiveButton-umbrella.h in Headers */,
+				0029470B49A1E40C1804CE817E201B02 /* OKActiveButton.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E419AA5A3BE1235B880C4DC623C6C1DF /* Headers */ = {
+		8915169979AACC52191B1B195B2BCC59 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54669590BF2BE25F79CB93ACAE000FC7 /* OKActiveButton+Gradient.h in Headers */,
-				9C49CAEEDF4EAB20BAAAACEE8BC1E72C /* OKActiveButton-umbrella.h in Headers */,
-				4371A207E6AC6F7DE72DECD8251459F2 /* OKActiveButton.h in Headers */,
+				43BA991FF7211A65F72BEC9DE3FAABA7 /* AKNumericFormatter-umbrella.h in Headers */,
+				E98C2D619D3A00355838BAE18A4E1CA5 /* AKNumericFormatter.h in Headers */,
+				A677486825789565047A429F8315CFB1 /* NSString+AKNumericFormatter.h in Headers */,
+				54F6277B15E36DCDD200F1F2213232E4 /* UITextField+AKNumericFormatter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C83781BFE7F4AB8B24650346264F6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEE9AA02177356F9C8D9CF9AD05F75D /* Pods-OKTextFieldView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0BEB709BFE9644A9FCB70918BE136A0D /* OKActiveButton */ = {
+		05DB0BBF30066411A46D879E370CE1A4 /* NSString-Email */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28C92DE6911F877E8A9AB67447E7BF2A /* Build configuration list for PBXNativeTarget "OKActiveButton" */;
+			buildConfigurationList = 3BCC8A4E9D095EF7F18037424C69A7F9 /* Build configuration list for PBXNativeTarget "NSString-Email" */;
 			buildPhases = (
-				58AC069453BD7103AE197DE738B91A3C /* Sources */,
-				4CBA5ACF77F26C63634F1115380AAB41 /* Frameworks */,
-				E419AA5A3BE1235B880C4DC623C6C1DF /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8F93693ABA27FC16E3B543A9EF05643E /* PBXTargetDependency */,
-			);
-			name = OKActiveButton;
-			productName = OKActiveButton;
-			productReference = 1BBA04845AF1FF229911C0709277BD32 /* OKActiveButton.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		118A07018B48D1D9FFF46835BDB81FFD /* Pods-OKTextFieldView_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5AB69F17D67F756D9C2B3E560E3B612B /* Build configuration list for PBXNativeTarget "Pods-OKTextFieldView_Example" */;
-			buildPhases = (
-				0AFDFBDD7373EA98E4F63D464AF09F4A /* Sources */,
-				38CD15FB92B8E94B599E9825100FD1A8 /* Frameworks */,
-				4CF2ED06E35388F39A302ACA6043CFE9 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3C9917157EE09364660254CF2A05A94A /* PBXTargetDependency */,
-				D21DA77733219B638D0FF09F854BA10C /* PBXTargetDependency */,
-				165C022E76746EE25B8FEF3DCF22AEC1 /* PBXTargetDependency */,
-				3AC5E227A5D6D79F2551BDF0A582C1E6 /* PBXTargetDependency */,
-			);
-			name = "Pods-OKTextFieldView_Example";
-			productName = "Pods-OKTextFieldView_Example";
-			productReference = 6D737A380D267B49A21640D77A15760B /* Pods_OKTextFieldView_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		13967D9472FC1F8ACB9AD2DF1A02FC7B /* NSString-Email */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 28F969394D6F86DCA2E00D413DC33CC2 /* Build configuration list for PBXNativeTarget "NSString-Email" */;
-			buildPhases = (
-				A4EFE50866B8EB7580CDED36C9274074 /* Sources */,
-				A1924E83F134B18823679624DB4C0171 /* Frameworks */,
-				08E9BFEA94D4904EBE5B7183887581DA /* Headers */,
+				A21956D8C545D4FE222223E07C3852B9 /* Sources */,
+				ABCCB4C365F64FB86C65461E3F6DF314 /* Frameworks */,
+				171A0CBCC3123B6E7BC0AE53C523CE27 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -562,34 +625,16 @@
 			);
 			name = "NSString-Email";
 			productName = "NSString-Email";
-			productReference = 84F0FEEECA00342A41B18636D92128F4 /* NSString_Email.framework */;
+			productReference = 07CAA73CC60896EFF4F2FE025617A8FA /* NSString_Email.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		92B46E535A7CC22ABE90B0AF4A2721FA /* OKTextFieldView */ = {
+		5FADBE6E5A7F4AFEB0E938C235E5BFA7 /* Pods-OKTextFieldView_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D02F67312AA0D735EEBFCEEE115D815F /* Build configuration list for PBXNativeTarget "OKTextFieldView" */;
+			buildConfigurationList = 93C813B0E77983DED09BF79A83B1BA9B /* Build configuration list for PBXNativeTarget "Pods-OKTextFieldView_Tests" */;
 			buildPhases = (
-				7F63929CE8484DB1BAC17E59AAB310FB /* Sources */,
-				3CAD0ACF0428A4F82E8E492102C3E752 /* Frameworks */,
-				95E6F4B4CA3707203C872CCA8C898CF2 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				250AE5EE64D1E3A8DD2AE816B219F6A3 /* PBXTargetDependency */,
-			);
-			name = OKTextFieldView;
-			productName = OKTextFieldView;
-			productReference = 4F51EC96F82CF99477A72CE79BE519C1 /* OKTextFieldView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		BFA397452CDDC455105A3947B7723F03 /* Pods-OKTextFieldView_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4FEBCF5D77E06A01547ABF4C9DC01F34 /* Build configuration list for PBXNativeTarget "Pods-OKTextFieldView_Tests" */;
-			buildPhases = (
-				32C64AA9FF7122F1EBF8B9C77C7D6942 /* Sources */,
-				B506B4DACE6C716A67D051567DD54B38 /* Frameworks */,
-				2BA9E28729988DD81794483D0FD05EFF /* Headers */,
+				9A144EC629A939242DA482A83C84AD3B /* Sources */,
+				02F3C4C10EF146D52BC225DDF7FB4706 /* Frameworks */,
+				091FBCFEA00B2F7371EC0A12AC9145CA /* Headers */,
 			);
 			buildRules = (
 			);
@@ -597,16 +642,16 @@
 			);
 			name = "Pods-OKTextFieldView_Tests";
 			productName = "Pods-OKTextFieldView_Tests";
-			productReference = 67F629A19010495185E5D64697CCB394 /* Pods_OKTextFieldView_Tests.framework */;
+			productReference = 197EBA7576D3C3C50398255A7C6E5D20 /* Pods_OKTextFieldView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CD26C1E93151F79B0E593A811931AE42 /* CAHorizontalGradientLayer */ = {
+		694F9E689D326D985582CFD80493B433 /* CAHorizontalGradientLayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B1B79660C734C2964BC0717FE48D610 /* Build configuration list for PBXNativeTarget "CAHorizontalGradientLayer" */;
+			buildConfigurationList = 7A48285E7548E4A48A2ADCF1AB603BCA /* Build configuration list for PBXNativeTarget "CAHorizontalGradientLayer" */;
 			buildPhases = (
-				97987F28756205FE6B299D7046E77A36 /* Sources */,
-				CE9DA11CB7DF758746C0188C89CBB1B0 /* Frameworks */,
-				9B3F737381A41427750566BF674671D2 /* Headers */,
+				A1CDE5D08A86ACA9E3A5E8C37164A413 /* Sources */,
+				AB2E3A07B17E0389A511981B2A310AEB /* Frameworks */,
+				39A127A4569D5059BE96BFDF8E2DB129 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -614,7 +659,83 @@
 			);
 			name = CAHorizontalGradientLayer;
 			productName = CAHorizontalGradientLayer;
-			productReference = A0859EDCB09326A770175D641256AF26 /* CAHorizontalGradientLayer.framework */;
+			productReference = D640159178D4E9E83A884C6F4CB15F2A /* CAHorizontalGradientLayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A83BB00F4AE3A804392CA13CC3943075 /* OKTextFieldView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C70A97EEB15A631D13C3855DC641B11 /* Build configuration list for PBXNativeTarget "OKTextFieldView" */;
+			buildPhases = (
+				9DB6AAE627725652EF98F4B490950700 /* Sources */,
+				1BD9D2759A63D6D390BD285592B672B1 /* Frameworks */,
+				5C53B4211C3F702A89404D4BF3FD976A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84AED4703E0A31EC1F5F386F39D88F2C /* PBXTargetDependency */,
+				C43D2C60832B4C837EC6BA48A8DB8AAD /* PBXTargetDependency */,
+			);
+			name = OKTextFieldView;
+			productName = OKTextFieldView;
+			productReference = 15B034D54A0D4EFFFA2BF8C9CD765668 /* OKTextFieldView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B3D42C176F8D340715FFAD57D251758D /* Pods-OKTextFieldView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A2F266A7528353641A35B1AF4C1A60B /* Build configuration list for PBXNativeTarget "Pods-OKTextFieldView_Example" */;
+			buildPhases = (
+				42B27233AD58B71C852E8819FEF8E00E /* Sources */,
+				B5A13C5A8ED8C3407D5CC1B67D6800B6 /* Frameworks */,
+				C7C83781BFE7F4AB8B24650346264F6B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25837136D28C325CE2FD9B3DD6171D1B /* PBXTargetDependency */,
+				48E88B6F27E56ABB61732B2ABEBDD01F /* PBXTargetDependency */,
+				17B8F3047D85A2AE710AB0A758664C6F /* PBXTargetDependency */,
+				169F86BFF4B644047DEA692F3A9437AD /* PBXTargetDependency */,
+				8EC36AA8E3BB60DE004DFDF2C7777778 /* PBXTargetDependency */,
+			);
+			name = "Pods-OKTextFieldView_Example";
+			productName = "Pods-OKTextFieldView_Example";
+			productReference = 7044E4F441A42680FE521423F989C3CE /* Pods_OKTextFieldView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB3B7F685165003A3D5A1EEBEAD9024C /* AKNumericFormatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 911DC2162D2E82EA50F1A7CED9527E51 /* Build configuration list for PBXNativeTarget "AKNumericFormatter" */;
+			buildPhases = (
+				F3F12A6932F85ABE5B5589EEB8C4D4F1 /* Sources */,
+				763F6863D15AC7676B2F8D86522F6D8B /* Frameworks */,
+				8915169979AACC52191B1B195B2BCC59 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AKNumericFormatter;
+			productName = AKNumericFormatter;
+			productReference = 3ED1409D5537E0A7F4ABA6BE7D04288D /* AKNumericFormatter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3AB7ECB7B58CED809EB3DC90E5F5558 /* OKActiveButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A821D05DDB96D2BEFC2CC8198D6416FB /* Build configuration list for PBXNativeTarget "OKActiveButton" */;
+			buildPhases = (
+				A3F4C667AA6D62FDB074BA37FCB831A0 /* Sources */,
+				78215391D295F2EEFB68A229056BE6F0 /* Frameworks */,
+				727EB19829DDF4BECA66702FBB7E6D92 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AA82430B8AAFC0DEDDA25D5401C7892 /* PBXTargetDependency */,
+			);
+			name = OKActiveButton;
+			productName = OKActiveButton;
+			productReference = 3B79DB5BD21ABD27CDAC7665FADD30D2 /* OKActiveButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -634,123 +755,245 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = E3AE9353988143CD1A4369728B946330 /* Products */;
+			productRefGroup = 3E4C74E05943585364D5A01E244CB91C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CD26C1E93151F79B0E593A811931AE42 /* CAHorizontalGradientLayer */,
-				13967D9472FC1F8ACB9AD2DF1A02FC7B /* NSString-Email */,
-				0BEB709BFE9644A9FCB70918BE136A0D /* OKActiveButton */,
-				92B46E535A7CC22ABE90B0AF4A2721FA /* OKTextFieldView */,
-				118A07018B48D1D9FFF46835BDB81FFD /* Pods-OKTextFieldView_Example */,
-				BFA397452CDDC455105A3947B7723F03 /* Pods-OKTextFieldView_Tests */,
+				BB3B7F685165003A3D5A1EEBEAD9024C /* AKNumericFormatter */,
+				694F9E689D326D985582CFD80493B433 /* CAHorizontalGradientLayer */,
+				05DB0BBF30066411A46D879E370CE1A4 /* NSString-Email */,
+				C3AB7ECB7B58CED809EB3DC90E5F5558 /* OKActiveButton */,
+				A83BB00F4AE3A804392CA13CC3943075 /* OKTextFieldView */,
+				B3D42C176F8D340715FFAD57D251758D /* Pods-OKTextFieldView_Example */,
+				5FADBE6E5A7F4AFEB0E938C235E5BFA7 /* Pods-OKTextFieldView_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0AFDFBDD7373EA98E4F63D464AF09F4A /* Sources */ = {
+		42B27233AD58B71C852E8819FEF8E00E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0238211B2DCD6B8999343E5FFFE5854 /* Pods-OKTextFieldView_Example-dummy.m in Sources */,
+				B17F3287D632D7E23F58F711E964A8F3 /* Pods-OKTextFieldView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		32C64AA9FF7122F1EBF8B9C77C7D6942 /* Sources */ = {
+		9A144EC629A939242DA482A83C84AD3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D55054E3A0D8019A29ACC082D324F55C /* Pods-OKTextFieldView_Tests-dummy.m in Sources */,
+				936AD7506588B266D5A5DB1C49575470 /* Pods-OKTextFieldView_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58AC069453BD7103AE197DE738B91A3C /* Sources */ = {
+		9DB6AAE627725652EF98F4B490950700 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D21247F263293E1B21548C1B8620D7A /* OKActiveButton+Gradient.m in Sources */,
-				D0C9404A2F49659442699313C719E842 /* OKActiveButton-dummy.m in Sources */,
-				D999265611002EBF7D4EA9DEB74C1FBD /* OKActiveButton.m in Sources */,
-				2B7B4D597CBBFAFE528996096FE51DC3 /* ReplaceMe.m in Sources */,
+				2568EE9952458E270037E39628B1D42B /* OKEmailTextFieldView.m in Sources */,
+				16101FF3842384D5F1A781A8DF01740F /* OKPasswordTextFieldView.m in Sources */,
+				CD794938824CFE17E8C5D9A995F32345 /* OKPhoneTextFieldView.m in Sources */,
+				9AFAF90103B5FA9487CF0AD244B88B07 /* OKTextFieldView-dummy.m in Sources */,
+				DE9BA7B50C78FD161D60E08B5B163FA3 /* OKTextFieldView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7F63929CE8484DB1BAC17E59AAB310FB /* Sources */ = {
+		A1CDE5D08A86ACA9E3A5E8C37164A413 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B3D4503F80715929ABE529EA95DBB14 /* OKEmailTextFieldView.m in Sources */,
-				3F2D10344AEA41317CFE29F46F9649F7 /* OKPasswordTextFieldView.m in Sources */,
-				B7BBA354EEA69C4B9291E1E6E372E6B4 /* OKTextFieldView-dummy.m in Sources */,
-				60068254DB11B854530FEBBF159A3588 /* OKTextFieldView.m in Sources */,
+				0B2BEEA81C39AB0FB46331270F190EBD /* CAHorizontalGradientLayer-dummy.m in Sources */,
+				0C31C2EDAC294625500CDBC02E2686DE /* CAHorizontalGradientLayer.m in Sources */,
+				CA92743905F9D24C166153C4F6C71751 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97987F28756205FE6B299D7046E77A36 /* Sources */ = {
+		A21956D8C545D4FE222223E07C3852B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A8A562D208E614F513FF54EE6FE5DB9 /* CAHorizontalGradientLayer-dummy.m in Sources */,
-				3354C0FE7FF913919E39FAC9B6AF25E5 /* CAHorizontalGradientLayer.m in Sources */,
-				B6F0B1484861B175E8AEB4945C15EAAF /* ReplaceMe.m in Sources */,
+				5E053495A0F9C5E6BA7DBAEC4CD837C4 /* NSString+Email.m in Sources */,
+				4AAC81F498EF2AE8B59B06A4A1042E80 /* NSString-Email-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4EFE50866B8EB7580CDED36C9274074 /* Sources */ = {
+		A3F4C667AA6D62FDB074BA37FCB831A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76B77700882C1CA5E4F742A501B1EF3D /* NSString+Email.m in Sources */,
-				09E0BA543AF7E2DA9309C8088B45F995 /* NSString-Email-dummy.m in Sources */,
+				B68F2C608F2AB4BF795BA2C3E4D8204A /* OKActiveButton+Gradient.m in Sources */,
+				4B413F0B0ACE95BD479C40FE720FEAAD /* OKActiveButton-dummy.m in Sources */,
+				EF5EBC7DC09DB9587967345AAF430590 /* OKActiveButton.m in Sources */,
+				D1D5DC3D7294A6EF12ABBF4A3AD318CD /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F12A6932F85ABE5B5589EEB8C4D4F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D426F8318E23ADCE009E9F81B410A34 /* AKNumericFormatter-dummy.m in Sources */,
+				8972EE5D30FDDF9C5CF60C97B60F5883 /* AKNumericFormatter.m in Sources */,
+				720DB54AF1D8D0C2513D3DA244BE3FE3 /* NSString+AKNumericFormatter.m in Sources */,
+				ED2F8F54CB99B1EBF6B31DB85E5735DF /* UITextField+AKNumericFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		165C022E76746EE25B8FEF3DCF22AEC1 /* PBXTargetDependency */ = {
+		0AA82430B8AAFC0DEDDA25D5401C7892 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CAHorizontalGradientLayer;
+			target = 694F9E689D326D985582CFD80493B433 /* CAHorizontalGradientLayer */;
+			targetProxy = 175825DC2548D1AF3F8EFDADFCD787FE /* PBXContainerItemProxy */;
+		};
+		169F86BFF4B644047DEA692F3A9437AD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OKActiveButton;
-			target = 0BEB709BFE9644A9FCB70918BE136A0D /* OKActiveButton */;
-			targetProxy = 1B985CE0CC6017726A2EBCE74C7D81F9 /* PBXContainerItemProxy */;
+			target = C3AB7ECB7B58CED809EB3DC90E5F5558 /* OKActiveButton */;
+			targetProxy = 5DD9FD9220195930A0ACEDB6F7C312E5 /* PBXContainerItemProxy */;
 		};
-		250AE5EE64D1E3A8DD2AE816B219F6A3 /* PBXTargetDependency */ = {
+		17B8F3047D85A2AE710AB0A758664C6F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "NSString-Email";
-			target = 13967D9472FC1F8ACB9AD2DF1A02FC7B /* NSString-Email */;
-			targetProxy = 557C54D7024C392D41257AE809C1642E /* PBXContainerItemProxy */;
+			target = 05DB0BBF30066411A46D879E370CE1A4 /* NSString-Email */;
+			targetProxy = A0F33517972D38B20807F80274F837EE /* PBXContainerItemProxy */;
 		};
-		3AC5E227A5D6D79F2551BDF0A582C1E6 /* PBXTargetDependency */ = {
+		25837136D28C325CE2FD9B3DD6171D1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AKNumericFormatter;
+			target = BB3B7F685165003A3D5A1EEBEAD9024C /* AKNumericFormatter */;
+			targetProxy = DF9CBC6995BE685BD0AD09C4550D04B6 /* PBXContainerItemProxy */;
+		};
+		48E88B6F27E56ABB61732B2ABEBDD01F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CAHorizontalGradientLayer;
+			target = 694F9E689D326D985582CFD80493B433 /* CAHorizontalGradientLayer */;
+			targetProxy = C83C5245DEDD376008671E76C0CAB377 /* PBXContainerItemProxy */;
+		};
+		84AED4703E0A31EC1F5F386F39D88F2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AKNumericFormatter;
+			target = BB3B7F685165003A3D5A1EEBEAD9024C /* AKNumericFormatter */;
+			targetProxy = 9D46A69290128116C4D1D955F3969B49 /* PBXContainerItemProxy */;
+		};
+		8EC36AA8E3BB60DE004DFDF2C7777778 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OKTextFieldView;
-			target = 92B46E535A7CC22ABE90B0AF4A2721FA /* OKTextFieldView */;
-			targetProxy = C01FB0422F28761D9EEF6464DADA7428 /* PBXContainerItemProxy */;
+			target = A83BB00F4AE3A804392CA13CC3943075 /* OKTextFieldView */;
+			targetProxy = 058121F9CE5257953FE55F97EF0E896C /* PBXContainerItemProxy */;
 		};
-		3C9917157EE09364660254CF2A05A94A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CAHorizontalGradientLayer;
-			target = CD26C1E93151F79B0E593A811931AE42 /* CAHorizontalGradientLayer */;
-			targetProxy = CF850F0D90E958EF3562BE69323893A4 /* PBXContainerItemProxy */;
-		};
-		8F93693ABA27FC16E3B543A9EF05643E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CAHorizontalGradientLayer;
-			target = CD26C1E93151F79B0E593A811931AE42 /* CAHorizontalGradientLayer */;
-			targetProxy = 5857905898DA9F5D041CE8DAC28AE055 /* PBXContainerItemProxy */;
-		};
-		D21DA77733219B638D0FF09F854BA10C /* PBXTargetDependency */ = {
+		C43D2C60832B4C837EC6BA48A8DB8AAD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "NSString-Email";
-			target = 13967D9472FC1F8ACB9AD2DF1A02FC7B /* NSString-Email */;
-			targetProxy = EEDB99B386E54DDD8D295DA7D82B1DF4 /* PBXContainerItemProxy */;
+			target = 05DB0BBF30066411A46D879E370CE1A4 /* NSString-Email */;
+			targetProxy = 46200304BE2EA7A94C81016EBE3B3719 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0BF2871FD1E9F989F842108370267279 /* Debug */ = {
+		0249805FC25A7178077A0CA808328FEB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B471CD453CDFD3C99C0C3B4660D67BAE /* OKActiveButton.xcconfig */;
+			baseConfigurationReference = 0CB0FA93A41AA978F9E774B33CD5B134 /* OKActiveButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OKActiveButton/OKActiveButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OKActiveButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OKActiveButton/OKActiveButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = OKActiveButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		061C31429B062C7722395DA9879EFB5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E13A19AE3EE63DB2F97999E2ED045D41 /* Pods-OKTextFieldView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OKTextFieldView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OKTextFieldView_Tests/Pods-OKTextFieldView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OKTextFieldView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		180AC68F56A928016B91807C3EB60086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1FAC77984EC3595DDA574B58AC839DE /* AKNumericFormatter.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AKNumericFormatter/AKNumericFormatter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AKNumericFormatter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AKNumericFormatter/AKNumericFormatter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AKNumericFormatter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1CDB33F298A69F5F457E83703ED06A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CB0FA93A41AA978F9E774B33CD5B134 /* OKActiveButton.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -779,38 +1022,7 @@
 			};
 			name = Debug;
 		};
-		2B5A99D06E942059E1B8B9B464F633C4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A24C36C5B0B224D6E30F1B0E2151A89 /* CAHorizontalGradientLayer.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CAHorizontalGradientLayer/CAHorizontalGradientLayer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CAHorizontalGradientLayer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CAHorizontalGradientLayer/CAHorizontalGradientLayer.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = CAHorizontalGradientLayer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		55ACB9ED0C38843C14274EAAF8E1292C /* Release */ = {
+		1E876B13F031A03C58EAB57F68E24DAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E596C04AD19506BD32DE456DB63B6D9C /* OKTextFieldView.xcconfig */;
 			buildSettings = {
@@ -840,6 +1052,68 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		84513978A1078325B93AE885C9E59080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B09F6940C4A8056B8D8E5D3CD719EEF /* NSString-Email.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NSString-Email/NSString-Email-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NSString-Email/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NSString-Email/NSString-Email.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NSString_Email;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		893CBD18CB7593E941805BB1B699F745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1FAC77984EC3595DDA574B58AC839DE /* AKNumericFormatter.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AKNumericFormatter/AKNumericFormatter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AKNumericFormatter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AKNumericFormatter/AKNumericFormatter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AKNumericFormatter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -881,9 +1155,9 @@
 			};
 			name = Release;
 		};
-		91232963D6BCDBBDDBD62A8646C3691D /* Debug */ = {
+		8E6CFB55D3C54FA7B8C1F77CB1BF0724 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9C4B991D92D5C5AA5C7B27B3684403D /* Pods-OKTextFieldView_Example.debug.xcconfig */;
+			baseConfigurationReference = 352C968AA2716DE928167302660BC752 /* CAHorizontalGradientLayer.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -896,18 +1170,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-OKTextFieldView_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/CAHorizontalGradientLayer/CAHorizontalGradientLayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CAHorizontalGradientLayer/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OKTextFieldView_Example/Pods-OKTextFieldView_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/CAHorizontalGradientLayer/CAHorizontalGradientLayer.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_OKTextFieldView_Example;
+				PRODUCT_NAME = CAHorizontalGradientLayer;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -916,42 +1186,38 @@
 			};
 			name = Debug;
 		};
-		992B34BCE16B8EC01DA8EA3969E54AF2 /* Release */ = {
+		95AC703AAB83D540A678FA3E835714BE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CB11D1A54CAE0B46839FF50D12FDA9B /* Pods-OKTextFieldView_Tests.release.xcconfig */;
+			baseConfigurationReference = 1B09F6940C4A8056B8D8E5D3CD719EEF /* NSString-Email.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-OKTextFieldView_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/NSString-Email/NSString-Email-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NSString-Email/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OKTextFieldView_Tests/Pods-OKTextFieldView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_OKTextFieldView_Tests;
+				MODULEMAP_FILE = "Target Support Files/NSString-Email/NSString-Email.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = NSString_Email;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		9DCEE29DEAFE963C359C7673EB67A3B7 /* Release */ = {
+		9CA9F6C2BCB6D136045F5B5A23A12812 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 66EE5B47000DE3B774FFD554CF380D20 /* Pods-OKTextFieldView_Example.release.xcconfig */;
 			buildSettings = {
@@ -978,6 +1244,37 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_OKTextFieldView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9CB8CB7F54B078EB5BF944BE0161F8E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 352C968AA2716DE928167302660BC752 /* CAHorizontalGradientLayer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CAHorizontalGradientLayer/CAHorizontalGradientLayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CAHorizontalGradientLayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CAHorizontalGradientLayer/CAHorizontalGradientLayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CAHorizontalGradientLayer;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1030,7 +1327,7 @@
 			};
 			name = Debug;
 		};
-		9E79CE3D3B0C617B6B3E89C4E3F231B0 /* Debug */ = {
+		CC2B9CD624F58F1491BED2A274A3C428 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E596C04AD19506BD32DE456DB63B6D9C /* OKTextFieldView.xcconfig */;
 			buildSettings = {
@@ -1061,15 +1358,15 @@
 			};
 			name = Debug;
 		};
-		CEC893937A518CEF6ABF26565B12BB48 /* Debug */ = {
+		D4655B6E55DCEF8445C254E4836076BE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E13A19AE3EE63DB2F97999E2ED045D41 /* Pods-OKTextFieldView_Tests.debug.xcconfig */;
+			baseConfigurationReference = 3CB11D1A54CAE0B46839FF50D12FDA9B /* Pods-OKTextFieldView_Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1082,7 +1379,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-OKTextFieldView_Tests/Pods-OKTextFieldView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1094,73 +1391,11 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
-		};
-		D7C146FE372DC3E848A936CAE1C2991E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C50E2E2B4E1229589E64601076A6AAC7 /* NSString-Email.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/NSString-Email/NSString-Email-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NSString-Email/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NSString-Email/NSString-Email.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = NSString_Email;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
 			name = Release;
 		};
-		E5045AFB19A975D86C1D8A2CD01687E6 /* Release */ = {
+		DEC950756E4CF4360101B25DEE5E2C27 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B471CD453CDFD3C99C0C3B4660D67BAE /* OKActiveButton.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/OKActiveButton/OKActiveButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OKActiveButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OKActiveButton/OKActiveButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = OKActiveButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EF2ED409BBCA95ACF75049D5321CD534 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C50E2E2B4E1229589E64601076A6AAC7 /* NSString-Email.xcconfig */;
+			baseConfigurationReference = B9C4B991D92D5C5AA5C7B27B3684403D /* Pods-OKTextFieldView_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1173,45 +1408,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/NSString-Email/NSString-Email-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NSString-Email/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-OKTextFieldView_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NSString-Email/NSString-Email.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OKTextFieldView_Example/Pods-OKTextFieldView_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = NSString_Email;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F4FEBABE688841633EBDC6A06D60B2D3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A24C36C5B0B224D6E30F1B0E2151A89 /* CAHorizontalGradientLayer.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CAHorizontalGradientLayer/CAHorizontalGradientLayer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CAHorizontalGradientLayer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CAHorizontalGradientLayer/CAHorizontalGradientLayer.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = CAHorizontalGradientLayer;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OKTextFieldView_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1223,20 +1431,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		28C92DE6911F877E8A9AB67447E7BF2A /* Build configuration list for PBXNativeTarget "OKActiveButton" */ = {
+		0C70A97EEB15A631D13C3855DC641B11 /* Build configuration list for PBXNativeTarget "OKTextFieldView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0BF2871FD1E9F989F842108370267279 /* Debug */,
-				E5045AFB19A975D86C1D8A2CD01687E6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		28F969394D6F86DCA2E00D413DC33CC2 /* Build configuration list for PBXNativeTarget "NSString-Email" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EF2ED409BBCA95ACF75049D5321CD534 /* Debug */,
-				D7C146FE372DC3E848A936CAE1C2991E /* Release */,
+				CC2B9CD624F58F1491BED2A274A3C428 /* Debug */,
+				1E876B13F031A03C58EAB57F68E24DAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1250,38 +1449,56 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4FEBCF5D77E06A01547ABF4C9DC01F34 /* Build configuration list for PBXNativeTarget "Pods-OKTextFieldView_Tests" */ = {
+		3BCC8A4E9D095EF7F18037424C69A7F9 /* Build configuration list for PBXNativeTarget "NSString-Email" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEC893937A518CEF6ABF26565B12BB48 /* Debug */,
-				992B34BCE16B8EC01DA8EA3969E54AF2 /* Release */,
+				95AC703AAB83D540A678FA3E835714BE /* Debug */,
+				84513978A1078325B93AE885C9E59080 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5AB69F17D67F756D9C2B3E560E3B612B /* Build configuration list for PBXNativeTarget "Pods-OKTextFieldView_Example" */ = {
+		4A2F266A7528353641A35B1AF4C1A60B /* Build configuration list for PBXNativeTarget "Pods-OKTextFieldView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				91232963D6BCDBBDDBD62A8646C3691D /* Debug */,
-				9DCEE29DEAFE963C359C7673EB67A3B7 /* Release */,
+				DEC950756E4CF4360101B25DEE5E2C27 /* Debug */,
+				9CA9F6C2BCB6D136045F5B5A23A12812 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B1B79660C734C2964BC0717FE48D610 /* Build configuration list for PBXNativeTarget "CAHorizontalGradientLayer" */ = {
+		7A48285E7548E4A48A2ADCF1AB603BCA /* Build configuration list for PBXNativeTarget "CAHorizontalGradientLayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F4FEBABE688841633EBDC6A06D60B2D3 /* Debug */,
-				2B5A99D06E942059E1B8B9B464F633C4 /* Release */,
+				8E6CFB55D3C54FA7B8C1F77CB1BF0724 /* Debug */,
+				9CB8CB7F54B078EB5BF944BE0161F8E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D02F67312AA0D735EEBFCEEE115D815F /* Build configuration list for PBXNativeTarget "OKTextFieldView" */ = {
+		911DC2162D2E82EA50F1A7CED9527E51 /* Build configuration list for PBXNativeTarget "AKNumericFormatter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E79CE3D3B0C617B6B3E89C4E3F231B0 /* Debug */,
-				55ACB9ED0C38843C14274EAAF8E1292C /* Release */,
+				893CBD18CB7593E941805BB1B699F745 /* Debug */,
+				180AC68F56A928016B91807C3EB60086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93C813B0E77983DED09BF79A83B1BA9B /* Build configuration list for PBXNativeTarget "Pods-OKTextFieldView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				061C31429B062C7722395DA9879EFB5F /* Debug */,
+				D4655B6E55DCEF8445C254E4836076BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A821D05DDB96D2BEFC2CC8198D6416FB /* Build configuration list for PBXNativeTarget "OKActiveButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CDB33F298A69F5F457E83703ED06A0A /* Debug */,
+				0249805FC25A7178077A0CA808328FEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -17,6 +17,7 @@
 {
     
     __weak IBOutlet OKActiveButton          *buttonSignIn;
+    __weak IBOutlet OKPhoneTextFieldView    *phoneField;
     __weak IBOutlet OKEmailTextFieldView    *emailField;
     __weak IBOutlet OKPasswordTextFieldView *passwordField;
     __weak IBOutlet UIButton                *buttonForgetPassword;
@@ -38,6 +39,9 @@
     passwordField.minLength = 6;
     buttonSignIn.shadowHidden = NO;
     buttonSignIn.enabled = self.isFulfilled;
+    
+    phoneField.leftView = [UIView new];
+    emailField.dimsInactive = YES;
     
     [emailField becomeFirstResponder];
 }
@@ -89,6 +93,7 @@
 #pragma mark - UITextFieldDelegate
 - (IBAction)textFieldDidChanged:(id)sender {
     buttonSignIn.enabled = self.isFulfilled;
+    
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {

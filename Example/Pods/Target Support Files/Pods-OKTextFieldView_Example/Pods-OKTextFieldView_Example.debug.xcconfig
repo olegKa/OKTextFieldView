@@ -1,9 +1,8 @@
-ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/CAHorizontalGradientLayer" "$PODS_CONFIGURATION_BUILD_DIR/NSString-Email" "$PODS_CONFIGURATION_BUILD_DIR/OKActiveButton" "$PODS_CONFIGURATION_BUILD_DIR/OKTextFieldView"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/AKNumericFormatter" "$PODS_CONFIGURATION_BUILD_DIR/CAHorizontalGradientLayer" "$PODS_CONFIGURATION_BUILD_DIR/NSString-Email" "$PODS_CONFIGURATION_BUILD_DIR/OKActiveButton" "$PODS_CONFIGURATION_BUILD_DIR/OKTextFieldView"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/CAHorizontalGradientLayer/CAHorizontalGradientLayer.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/NSString-Email/NSString_Email.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/OKActiveButton/OKActiveButton.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/OKTextFieldView/OKTextFieldView.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "CAHorizontalGradientLayer" -framework "NSString_Email" -framework "OKActiveButton" -framework "OKTextFieldView"
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/AKNumericFormatter/AKNumericFormatter.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/CAHorizontalGradientLayer/CAHorizontalGradientLayer.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/NSString-Email/NSString_Email.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/OKActiveButton/OKActiveButton.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/OKTextFieldView/OKTextFieldView.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "AKNumericFormatter" -framework "CAHorizontalGradientLayer" -framework "NSString_Email" -framework "OKActiveButton" -framework "OKTextFieldView"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}/Pods

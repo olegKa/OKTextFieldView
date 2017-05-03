@@ -1,5 +1,6 @@
 //
 //  OKTextFieldView.m
+//  Pods
 //
 //  Created by OLEG KALININ on 18.11.16.
 //
@@ -9,9 +10,7 @@
 
 
 @interface OKTextFieldView ()
-
 {
-    
     UIButton *buttonRight;
     UIImageView *iconLeft;
 }
@@ -74,8 +73,8 @@
     CGColorRef colorRef = self.editing? self.tintColor.CGColor : self.placeholderColor.CGColor;
     
     CGContextSetStrokeColorWithColor(context, colorRef);
-    CGContextSetLineWidth(context, self.editing? 1:0.5f);
-    CGContextSetAlpha(context, self.editing? 1:0.5f);
+    CGContextSetLineWidth(context, self.editing? 1: self.dimsInactive? .5f:1.0f);
+    CGContextSetAlpha(context, self.editing? 1: self.dimsInactive? .5f:1.0f);
     
     // start a new Path
     CGContextBeginPath(context);
@@ -95,7 +94,7 @@
     self.rightViewMode = self.rightImage? UITextFieldViewModeAlways : UITextFieldViewModeNever;
 
     iconLeft.image = self.leftImage;
-    iconLeft.alpha = self.editing? 0.6f:0.2f;
+    iconLeft.alpha = self.editing? 1.0f: self.dimsInactive? 0.2f:1.0f;
     //self.leftView = iconLeft;
 }
 

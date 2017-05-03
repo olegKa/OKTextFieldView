@@ -11,6 +11,8 @@
 
 #import "OKEmailTextFieldView.h"
 #import "OKPasswordTextFieldView.h"
+#import "OKPhoneTextFieldView.h"
+
 
 
 #endif /* OKTextField_h */

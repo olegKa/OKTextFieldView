@@ -1,0 +1,20 @@
+https://guides.cocoapods.org/making/making-a-cocoapod.html
+
+Release
+
+Once you have a release ready you'll need to make the corresponding tag. First run a quick pod lib lint then create your tag and push it.
+
+The release workflow is similar to the following.
+$ cd ~/code/Pods/NAME
+$ edit NAME.podspec
+# set the new version to 0.0.1
+# set the new tag to 0.0.1
+$ pod lib lint
+
+$ git add -A && git commit -m "Release 0.0.1."
+$ git tag '0.0.1'
+$ git push --tags
+Submitting Open Source Code
+Once your tags are pushed you can use the command:
+
+pod trunk push OKTextFieldView.podspec

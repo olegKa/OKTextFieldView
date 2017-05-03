@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OKTextFieldView'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'OKTextFieldView is customization of UITextField'
 
 # This description is used to generate tags and improve search results.
@@ -39,4 +39,5 @@ TODO: Include OKEmailTextFieldView & OKPasswordTextFieldView
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
     s.dependency 'NSString-Email', '~> 0.0.3'
+    s.dependency 'AKNumericFormatter', '~> 0.0.2'
 end

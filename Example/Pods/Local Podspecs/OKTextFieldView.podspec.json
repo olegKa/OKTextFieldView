@@ -1,6 +1,6 @@
 {
   "name": "OKTextFieldView",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "summary": "OKTextFieldView is customization of UITextField",
   "description": "TODO: Include OKEmailTextFieldView & OKPasswordTextFieldView",
   "homepage": "https://github.com/olegKa/OKTextFieldView",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/olegKa/OKTextFieldView.git",
-    "tag": "0.1.0"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "8.0"
@@ -22,6 +22,9 @@
   "dependencies": {
     "NSString-Email": [
       "~> 0.0.3"
+    ],
+    "AKNumericFormatter": [
+      "~> 0.0.2"
     ]
   }
 }

@@ -36,7 +36,7 @@
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillShowNotification:) name:UIKeyboardWillShowNotification object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillHideNotification:) name:UIKeyboardWillHideNotification object:nil];
     
-    passwordField.minLength = 4;
+    passwordField.minLength = 6;
     buttonSignIn.shadowHidden = NO;
     buttonSignIn.enabled = self.isFulfilled;
     

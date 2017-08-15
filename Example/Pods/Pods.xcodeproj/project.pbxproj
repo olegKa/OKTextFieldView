@@ -118,18 +118,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02ECB9EB09105B2756B094D5EBE2C736 /* AKNumericFormatter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AKNumericFormatter.modulemap; sourceTree = "<group>"; };
-		07CAA73CC60896EFF4F2FE025617A8FA /* NSString_Email.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NSString_Email.framework; path = "NSString-Email.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02ECB9EB09105B2756B094D5EBE2C736 /* AKNumericFormatter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AKNumericFormatter.modulemap; sourceTree = "<group>"; };
+		07CAA73CC60896EFF4F2FE025617A8FA /* NSString_Email.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSString_Email.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08A87DEEFFE95F7951255170BBBFC3EC /* OKActiveButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OKActiveButton.h; path = OKActiveButton/Classes/OKActiveButton.h; sourceTree = "<group>"; };
 		0CB0FA93A41AA978F9E774B33CD5B134 /* OKActiveButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OKActiveButton.xcconfig; sourceTree = "<group>"; };
 		0D80C86FB6DDCFD2B92FCB336BF19E9B /* AKNumericFormatter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKNumericFormatter-umbrella.h"; sourceTree = "<group>"; };
 		140BC2FCB311395A2B56D96548897CFF /* OKTextFieldView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OKTextFieldView-umbrella.h"; sourceTree = "<group>"; };
 		147476991E373D1E6339F0D93287C1CD /* OKEmailTextFieldView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OKEmailTextFieldView.h; sourceTree = "<group>"; };
 		149137E36543C93E223A35BAAE8D80F7 /* NSString+AKNumericFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+AKNumericFormatter.h"; path = "AKNumericFormatter/AKNumericFormatter/NSString+AKNumericFormatter.h"; sourceTree = "<group>"; };
-		15B034D54A0D4EFFFA2BF8C9CD765668 /* OKTextFieldView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OKTextFieldView.framework; path = OKTextFieldView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15B034D54A0D4EFFFA2BF8C9CD765668 /* OKTextFieldView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OKTextFieldView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1776F68E9A7F6D4CF016FA05B0D79914 /* OKTextFieldView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OKTextFieldView.h; sourceTree = "<group>"; };
 		18609CDF508CB1331F7236C4AE5A7CB4 /* NSString-Email-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString-Email-umbrella.h"; sourceTree = "<group>"; };
-		197EBA7576D3C3C50398255A7C6E5D20 /* Pods_OKTextFieldView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OKTextFieldView_Tests.framework; path = "Pods-OKTextFieldView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		197EBA7576D3C3C50398255A7C6E5D20 /* Pods_OKTextFieldView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OKTextFieldView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		19910BD3B9846A67E5E431938269666A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B09F6940C4A8056B8D8E5D3CD719EEF /* NSString-Email.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "NSString-Email.xcconfig"; sourceTree = "<group>"; };
 		268006D3D273314F9A04C6BDD41A98BF /* OKTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OKTextField.h; sourceTree = "<group>"; };
@@ -142,34 +142,34 @@
 		352C968AA2716DE928167302660BC752 /* CAHorizontalGradientLayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CAHorizontalGradientLayer.xcconfig; sourceTree = "<group>"; };
 		3625C9F2857F058DA72C3FD57CD39A5F /* AKNumericFormatter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AKNumericFormatter-dummy.m"; sourceTree = "<group>"; };
 		36E61649E1991475D2EAE6DE15BE0120 /* OKActiveButton+Gradient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OKActiveButton+Gradient.h"; path = "OKActiveButton/Classes/OKActiveButton+Gradient.h"; sourceTree = "<group>"; };
-		3956923E927D5BDAD5348573EEBFF2A1 /* OKActiveButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = OKActiveButton.modulemap; sourceTree = "<group>"; };
-		3B79DB5BD21ABD27CDAC7665FADD30D2 /* OKActiveButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OKActiveButton.framework; path = OKActiveButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3956923E927D5BDAD5348573EEBFF2A1 /* OKActiveButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OKActiveButton.modulemap; sourceTree = "<group>"; };
+		3B79DB5BD21ABD27CDAC7665FADD30D2 /* OKActiveButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OKActiveButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BFBF015D6D549D85B2B85FCF6C91B91 /* Pods-OKTextFieldView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OKTextFieldView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3CB11D1A54CAE0B46839FF50D12FDA9B /* Pods-OKTextFieldView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OKTextFieldView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3ED1409D5537E0A7F4ABA6BE7D04288D /* AKNumericFormatter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AKNumericFormatter.framework; path = AKNumericFormatter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ED1409D5537E0A7F4ABA6BE7D04288D /* AKNumericFormatter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AKNumericFormatter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EFA63E1342A7D502BF4B4D11F645880 /* Pods-OKTextFieldView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OKTextFieldView_Example-umbrella.h"; sourceTree = "<group>"; };
 		43867A38B2EA81524F68C0743F48DE5C /* NSString+Email.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Email.h"; path = "NSString-Email/NSString+Email.h"; sourceTree = "<group>"; };
 		4549142A61C0522D8D21A2A662716D1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4ABAC9CB02C09DA2E8AF701073127091 /* Pods-OKTextFieldView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OKTextFieldView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4B2FACB3735587BEB95F41B0052A127B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F615443CE5069DE5BDE396355D9C031 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = OKActiveButton/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		58C964C0A6EC5DDC02D782850E8C5C85 /* OKTextFieldView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = OKTextFieldView.modulemap; sourceTree = "<group>"; };
+		58C964C0A6EC5DDC02D782850E8C5C85 /* OKTextFieldView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OKTextFieldView.modulemap; sourceTree = "<group>"; };
 		5B2EC10EB9D9CDC82547737C0C036B2D /* OKPasswordTextFieldView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OKPasswordTextFieldView.m; sourceTree = "<group>"; };
 		5BFBC398F9EA789C3D2BD57A9BC58D97 /* Pods-OKTextFieldView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OKTextFieldView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		66EE5B47000DE3B774FFD554CF380D20 /* Pods-OKTextFieldView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OKTextFieldView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		694ACE529216474274ED5C95BDB38573 /* NSString+AKNumericFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+AKNumericFormatter.m"; path = "AKNumericFormatter/AKNumericFormatter/NSString+AKNumericFormatter.m"; sourceTree = "<group>"; };
-		700612F5766181313C7157AEC0B1FBD7 /* Pods-OKTextFieldView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-OKTextFieldView_Tests.modulemap"; sourceTree = "<group>"; };
-		7044E4F441A42680FE521423F989C3CE /* Pods_OKTextFieldView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OKTextFieldView_Example.framework; path = "Pods-OKTextFieldView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		700612F5766181313C7157AEC0B1FBD7 /* Pods-OKTextFieldView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OKTextFieldView_Tests.modulemap"; sourceTree = "<group>"; };
+		7044E4F441A42680FE521423F989C3CE /* Pods_OKTextFieldView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OKTextFieldView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72E39A07239CCA11AB9EB3A856698387 /* NSString-Email-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString-Email-dummy.m"; sourceTree = "<group>"; };
 		7741089DCD746D9DD03425F96CBF55D8 /* CAHorizontalGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CAHorizontalGradientLayer.m; path = CAHorizontalGradientLayer/Classes/CAHorizontalGradientLayer.m; sourceTree = "<group>"; };
-		82A58B8AA1FAEA5293C605F844C007BC /* NSString-Email.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "NSString-Email.modulemap"; sourceTree = "<group>"; };
+		82A58B8AA1FAEA5293C605F844C007BC /* NSString-Email.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "NSString-Email.modulemap"; sourceTree = "<group>"; };
 		8410135C54A432D023B6B5E603B5D66C /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CAHorizontalGradientLayer/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		842094B40113078584FAA1229235C73C /* OKEmailTextFieldView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OKEmailTextFieldView.m; sourceTree = "<group>"; };
 		8DCB612580FAAF8DE60A46590591D618 /* OKPasswordTextFieldView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OKPasswordTextFieldView.h; sourceTree = "<group>"; };
 		905B67E0E2375D0DDEA0592F13C90F47 /* Pods-OKTextFieldView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OKTextFieldView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		90F38B24AFABE282F1D549B0B2B3D94B /* OKActiveButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OKActiveButton-dummy.m"; sourceTree = "<group>"; };
 		938F36C9D7646A9F30CEFDA45E5F4687 /* OKActiveButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OKActiveButton-prefix.pch"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		972BE2791BB967D015A59F35FDB5B926 /* Pods-OKTextFieldView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OKTextFieldView_Example-dummy.m"; sourceTree = "<group>"; };
 		9D040B260F841BB7D1245F0EE1A4A74E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D15B86C84CB814341633658244C61C1 /* OKTextFieldView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OKTextFieldView-dummy.m"; sourceTree = "<group>"; };
@@ -179,7 +179,7 @@
 		AB124FD4B65C939FAF95AE8991FFD934 /* OKTextFieldView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OKTextFieldView-prefix.pch"; sourceTree = "<group>"; };
 		ABB40CEE0344F0EF0CEAE07B212F73B1 /* Pods-OKTextFieldView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OKTextFieldView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B9C4B991D92D5C5AA5C7B27B3684403D /* Pods-OKTextFieldView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OKTextFieldView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BD71411000BAEB4DA9AE9D3507ADDA42 /* Pods-OKTextFieldView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-OKTextFieldView_Example.modulemap"; sourceTree = "<group>"; };
+		BD71411000BAEB4DA9AE9D3507ADDA42 /* Pods-OKTextFieldView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OKTextFieldView_Example.modulemap"; sourceTree = "<group>"; };
 		C14F6EF1876CABCF13BB37593BF8ADE2 /* AKNumericFormatter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AKNumericFormatter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8CA6292AD6E996F4F64DBBC2A81B36C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB87028EB4222E3D431D61DB29E9EF8D /* OKPhoneTextFieldView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OKPhoneTextFieldView.m; sourceTree = "<group>"; };
@@ -188,9 +188,9 @@
 		D1B3B23D84EE1E1B2DCA8DFC654EA7B3 /* OKTextFieldView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OKTextFieldView.m; sourceTree = "<group>"; };
 		D5B3A3D8A68F21CA3CCCE7D962195473 /* CAHorizontalGradientLayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAHorizontalGradientLayer-umbrella.h"; sourceTree = "<group>"; };
 		D5CC807BFE55B1C318F0A5372C2FEAEE /* AKNumericFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKNumericFormatter.h; path = AKNumericFormatter/AKNumericFormatter/AKNumericFormatter.h; sourceTree = "<group>"; };
-		D640159178D4E9E83A884C6F4CB15F2A /* CAHorizontalGradientLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CAHorizontalGradientLayer.framework; path = CAHorizontalGradientLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D640159178D4E9E83A884C6F4CB15F2A /* CAHorizontalGradientLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CAHorizontalGradientLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E13A19AE3EE63DB2F97999E2ED045D41 /* Pods-OKTextFieldView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OKTextFieldView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E2F967163D75375CADB0F85E51A92EF5 /* CAHorizontalGradientLayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CAHorizontalGradientLayer.modulemap; sourceTree = "<group>"; };
+		E2F967163D75375CADB0F85E51A92EF5 /* CAHorizontalGradientLayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CAHorizontalGradientLayer.modulemap; sourceTree = "<group>"; };
 		E596C04AD19506BD32DE456DB63B6D9C /* OKTextFieldView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OKTextFieldView.xcconfig; sourceTree = "<group>"; };
 		E64346D213C7F2757D47F585EA655D85 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6B568474F443E91AC2748EBD42454A9 /* NSString_Email.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSString_Email.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -280,7 +280,6 @@
 				4F615443CE5069DE5BDE396355D9C031 /* ReplaceMe.m */,
 				6B799F2EAA62F08180F0DC27A6F52B28 /* Support Files */,
 			);
-			name = OKActiveButton;
 			path = OKActiveButton;
 			sourceTree = "<group>";
 		};
@@ -369,7 +368,6 @@
 				FA1CB240946C3EFB4B077D043A56130C /* UITextField+AKNumericFormatter.m */,
 				13EFC2CC9110FA210193E369491164AD /* Support Files */,
 			);
-			name = AKNumericFormatter;
 			path = AKNumericFormatter;
 			sourceTree = "<group>";
 		};
@@ -378,7 +376,6 @@
 			children = (
 				F3FF08A7906F5A71C51E88895ED2DD3C /* Classes */,
 			);
-			name = OKTextFieldView;
 			path = OKTextFieldView;
 			sourceTree = "<group>";
 		};
@@ -415,7 +412,6 @@
 				8410135C54A432D023B6B5E603B5D66C /* ReplaceMe.m */,
 				903A655F9A05A9F6E2EA1F3CFBD8D51E /* Support Files */,
 			);
-			name = CAHorizontalGradientLayer;
 			path = CAHorizontalGradientLayer;
 			sourceTree = "<group>";
 		};
@@ -490,7 +486,6 @@
 				F229491F7B5DCBDE7B521B860E6DC958 /* NSString+Email.m */,
 				BBC313C5FEDAD8F52828F74033E4EE08 /* Support Files */,
 			);
-			name = "NSString-Email";
 			path = "NSString-Email";
 			sourceTree = "<group>";
 		};
@@ -533,7 +528,6 @@
 				1776F68E9A7F6D4CF016FA05B0D79914 /* OKTextFieldView.h */,
 				D1B3B23D84EE1E1B2DCA8DFC654EA7B3 /* OKTextFieldView.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -964,6 +958,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F1FAC77984EC3595DDA574B58AC839DE /* AKNumericFormatter.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1026,6 +1021,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E596C04AD19506BD32DE456DB63B6D9C /* OKTextFieldView.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1088,6 +1084,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F1FAC77984EC3595DDA574B58AC839DE /* AKNumericFormatter.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1119,6 +1116,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1287,6 +1285,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1331,6 +1330,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E596C04AD19506BD32DE456DB63B6D9C /* OKTextFieldView.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";

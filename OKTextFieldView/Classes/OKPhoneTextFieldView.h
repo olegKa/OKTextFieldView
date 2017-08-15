@@ -7,8 +7,8 @@
 //
 
 #import "OKTextFieldView.h"
-#import "AKNumericFormatter.h"
-#import "UITextField+AKNumericFormatter.h"
+#import <AKNumericFormatter/AKNumericFormatter.h>
+#import <AKNumericFormatter/UITextField+AKNumericFormatter.h>
 
 @interface OKPhoneTextFieldView : OKTextFieldView
 
